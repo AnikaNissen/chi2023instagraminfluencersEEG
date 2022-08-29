@@ -1,0 +1,346 @@
+﻿<?xml version="1.0" ?>
+<PsychoPy2experiment encoding="utf-8" version="3.2.4">
+  <Settings>
+    <Param name="Audio latency priority" updates="None" val="use prefs" valType="str"/>
+    <Param name="Audio lib" updates="None" val="use prefs" valType="str"/>
+    <Param name="Completed URL" updates="None" val="" valType="str"/>
+    <Param name="Data file delimiter" updates="None" val="auto" valType="str"/>
+    <Param name="Data filename" updates="None" val="u'data/%s_%s_%s' % (expInfo['participant'], expName, expInfo['date'])" valType="code"/>
+    <Param name="Enable Escape" updates="None" val="True" valType="bool"/>
+    <Param name="Experiment info" updates="None" val="{'participant': '', 'session': '001'}" valType="code"/>
+    <Param name="Force stereo" updates="None" val="True" valType="bool"/>
+    <Param name="Full-screen window" updates="None" val="True" valType="bool"/>
+    <Param name="HTML path" updates="None" val="html" valType="str"/>
+    <Param name="Incomplete URL" updates="None" val="" valType="str"/>
+    <Param name="JS libs" updates="None" val="packaged" valType="str"/>
+    <Param name="Monitor" updates="None" val="testMonitor" valType="str"/>
+    <Param name="Resources" updates="None" val="[]" valType="list"/>
+    <Param name="Save csv file" updates="None" val="False" valType="bool"/>
+    <Param name="Save excel file" updates="None" val="False" valType="bool"/>
+    <Param name="Save hdf5 file" updates="None" val="False" valType="bool"/>
+    <Param name="Save log file" updates="None" val="True" valType="bool"/>
+    <Param name="Save psydat file" updates="None" val="True" valType="bool"/>
+    <Param name="Save wide csv file" updates="None" val="True" valType="bool"/>
+    <Param name="Screen" updates="None" val="1" valType="num"/>
+    <Param name="Show info dlg" updates="None" val="True" valType="bool"/>
+    <Param name="Show mouse" updates="None" val="False" valType="bool"/>
+    <Param name="Units" updates="None" val="height" valType="str"/>
+    <Param name="Use version" updates="None" val="" valType="str"/>
+    <Param name="Window size (pixels)" updates="None" val="[1920, 1080]" valType="code"/>
+    <Param name="blendMode" updates="None" val="avg" valType="str"/>
+    <Param name="color" updates="None" val="$[0,0,0]" valType="str"/>
+    <Param name="colorSpace" updates="None" val="rgb" valType="str"/>
+    <Param name="elAddress" updates="None" val="100.1.1.1" valType="str"/>
+    <Param name="elDataFiltering" updates="None" val="FILTER_LEVEL_2" valType="str"/>
+    <Param name="elLiveFiltering" updates="None" val="FILTER_LEVEL_OFF" valType="str"/>
+    <Param name="elModel" updates="None" val="EYELINK 1000 DESKTOP" valType="str"/>
+    <Param name="elPupilAlgorithm" updates="None" val="ELLIPSE_FIT" valType="str"/>
+    <Param name="elPupilMeasure" updates="None" val="PUPIL_AREA" valType="str"/>
+    <Param name="elSampleRate" updates="None" val="1000" valType="num"/>
+    <Param name="elSimMode" updates="None" val="False" valType="bool"/>
+    <Param name="elTrackEyes" updates="None" val="RIGHT_EYE" valType="str"/>
+    <Param name="elTrackingMode" updates="None" val="PUPIL_CR_TRACKING" valType="str"/>
+    <Param name="expName" updates="None" val="VirtualInfluencersEEG" valType="str"/>
+    <Param name="exportHTML" updates="None" val="on Sync" valType="str"/>
+    <Param name="eyetracker" updates="None" val="None" valType="str"/>
+    <Param name="gpAddress" updates="None" val="127.0.0.1" valType="str"/>
+    <Param name="gpPort" updates="None" val="4242" valType="num"/>
+    <Param name="keyboardBackend" updates="None" val="ioHub" valType="str"/>
+    <Param name="logging level" updates="None" val="exp" valType="code"/>
+    <Param name="mgBlink" updates="None" val="('MIDDLE_BUTTON',)" valType="list"/>
+    <Param name="mgMove" updates="None" val="CONTINUOUS" valType="str"/>
+    <Param name="mgSaccade" updates="None" val="0.5" valType="num"/>
+    <Param name="plConfidenceThreshold" updates="None" val="0.6" valType="num"/>
+    <Param name="plPupilCaptureRecordingEnabled" updates="None" val="True" valType="bool"/>
+    <Param name="plPupilCaptureRecordingLocation" updates="None" val="" valType="str"/>
+    <Param name="plPupilRemoteAddress" updates="None" val="127.0.0.1" valType="str"/>
+    <Param name="plPupilRemotePort" updates="None" val="50020" valType="num"/>
+    <Param name="plPupilRemoteTimeoutMs" updates="None" val="1000" valType="num"/>
+    <Param name="plPupillometryOnly" updates="None" val="False" valType="bool"/>
+    <Param name="plSurfaceName" updates="None" val="psychopy_iohub_surface" valType="str"/>
+    <Param name="tbLicenseFile" updates="None" val="" valType="str"/>
+    <Param name="tbModel" updates="None" val="" valType="str"/>
+    <Param name="tbSampleRate" updates="None" val="60" valType="num"/>
+    <Param name="tbSerialNo" updates="None" val="" valType="str"/>
+  </Settings>
+  <Routines>
+    <Routine name="LSL">
+      <CodeComponent name="code">
+        <Param name="Before Experiment" updates="constant" val="" valType="extendedCode"/>
+        <Param name="Before JS Experiment" updates="constant" val="" valType="extendedCode"/>
+        <Param name="Begin Experiment" updates="constant" val="from psychopy import parallel&amp;#10;parallel.setPortAddress(61432) #61432" valType="extendedCode"/>
+        <Param name="Begin JS Experiment" updates="constant" val="" valType="extendedCode"/>
+        <Param name="Begin JS Routine" updates="constant" val="" valType="extendedCode"/>
+        <Param name="Begin Routine" updates="constant" val="" valType="extendedCode"/>
+        <Param name="Code Type" updates="None" val="Py" valType="str"/>
+        <Param name="Each Frame" updates="constant" val="" valType="extendedCode"/>
+        <Param name="Each JS Frame" updates="constant" val="" valType="extendedCode"/>
+        <Param name="End Experiment" updates="constant" val="" valType="extendedCode"/>
+        <Param name="End JS Experiment" updates="constant" val="" valType="extendedCode"/>
+        <Param name="End JS Routine" updates="constant" val="" valType="extendedCode"/>
+        <Param name="End Routine" updates="constant" val="" valType="extendedCode"/>
+        <Param name="disabled" updates="None" val="False" valType="bool"/>
+        <Param name="name" updates="None" val="code" valType="code"/>
+      </CodeComponent>
+      <KeyboardComponent name="EndIntro">
+        <Param name="allowedKeys" updates="constant" val="'z'" valType="list"/>
+        <Param name="correctAns" updates="constant" val="" valType="str"/>
+        <Param name="disabled" updates="None" val="False" valType="bool"/>
+        <Param name="discard previous" updates="constant" val="True" valType="bool"/>
+        <Param name="durationEstim" updates="None" val="" valType="code"/>
+        <Param name="forceEndRoutine" updates="constant" val="True" valType="bool"/>
+        <Param name="name" updates="None" val="EndIntro" valType="code"/>
+        <Param name="saveStartStop" updates="None" val="True" valType="bool"/>
+        <Param name="startEstim" updates="None" val="" valType="code"/>
+        <Param name="startType" updates="None" val="time (s)" valType="str"/>
+        <Param name="startVal" updates="None" val="0.0" valType="code"/>
+        <Param name="stopType" updates="None" val="duration (s)" valType="str"/>
+        <Param name="stopVal" updates="constant" val="" valType="code"/>
+        <Param name="store" updates="constant" val="all keys" valType="str"/>
+        <Param name="storeCorrect" updates="constant" val="False" valType="bool"/>
+        <Param name="syncScreenRefresh" updates="constant" val="True" valType="bool"/>
+      </KeyboardComponent>
+    </Routine>
+    <Routine name="Ende">
+      <TextComponent name="text">
+        <Param name="color" updates="constant" val="white" valType="str"/>
+        <Param name="colorSpace" updates="constant" val="rgb" valType="str"/>
+        <Param name="contrast" updates="constant" val="1" valType="num"/>
+        <Param name="disabled" updates="None" val="False" valType="bool"/>
+        <Param name="durationEstim" updates="None" val="" valType="code"/>
+        <Param name="flip" updates="constant" val="" valType="str"/>
+        <Param name="font" updates="constant" val="Arial" valType="str"/>
+        <Param name="languageStyle" updates="None" val="LTR" valType="str"/>
+        <Param name="letterHeight" updates="constant" val="0.06" valType="code"/>
+        <Param name="name" updates="None" val="text" valType="code"/>
+        <Param name="opacity" updates="constant" val="1" valType="code"/>
+        <Param name="ori" updates="constant" val="0" valType="code"/>
+        <Param name="pos" updates="constant" val="(0, 0)" valType="list"/>
+        <Param name="saveStartStop" updates="None" val="True" valType="bool"/>
+        <Param name="startEstim" updates="None" val="" valType="code"/>
+        <Param name="startType" updates="None" val="time (s)" valType="str"/>
+        <Param name="startVal" updates="None" val="0.0" valType="code"/>
+        <Param name="stopType" updates="None" val="condition" valType="str"/>
+        <Param name="stopVal" updates="constant" val="" valType="code"/>
+        <Param name="syncScreenRefresh" updates="None" val="True" valType="bool"/>
+        <Param name="text" updates="constant" val="&amp;#10;Das Experiment ist beendet.&amp;#10;Sagen Sie der Versuchsleitung Bescheid." valType="str"/>
+        <Param name="units" updates="None" val="from exp settings" valType="str"/>
+        <Param name="wrapWidth" updates="constant" val="" valType="code"/>
+      </TextComponent>
+    </Routine>
+    <Routine name="StartExperiment">
+      <TextComponent name="StartNachricht1">
+        <Param name="color" updates="constant" val="white" valType="str"/>
+        <Param name="colorSpace" updates="constant" val="rgb" valType="str"/>
+        <Param name="contrast" updates="constant" val="1" valType="num"/>
+        <Param name="disabled" updates="None" val="False" valType="bool"/>
+        <Param name="durationEstim" updates="None" val="" valType="code"/>
+        <Param name="flip" updates="constant" val="" valType="str"/>
+        <Param name="font" updates="constant" val="Arial" valType="str"/>
+        <Param name="languageStyle" updates="None" val="LTR" valType="str"/>
+        <Param name="letterHeight" updates="constant" val="0.06" valType="code"/>
+        <Param name="name" updates="None" val="StartNachricht1" valType="code"/>
+        <Param name="opacity" updates="constant" val="1" valType="code"/>
+        <Param name="ori" updates="constant" val="0" valType="code"/>
+        <Param name="pos" updates="constant" val="(0, 0)" valType="list"/>
+        <Param name="saveStartStop" updates="None" val="True" valType="bool"/>
+        <Param name="startEstim" updates="None" val="" valType="code"/>
+        <Param name="startType" updates="None" val="time (s)" valType="str"/>
+        <Param name="startVal" updates="None" val="0.0" valType="code"/>
+        <Param name="stopType" updates="None" val="condition" valType="str"/>
+        <Param name="stopVal" updates="constant" val="" valType="code"/>
+        <Param name="syncScreenRefresh" updates="None" val="True" valType="bool"/>
+        <Param name="text" updates="constant" val="Press START to begin with the experiment." valType="str"/>
+        <Param name="units" updates="None" val="from exp settings" valType="str"/>
+        <Param name="wrapWidth" updates="constant" val="" valType="code"/>
+      </TextComponent>
+      <KeyboardComponent name="Start">
+        <Param name="allowedKeys" updates="constant" val="'return'" valType="list"/>
+        <Param name="correctAns" updates="constant" val="" valType="str"/>
+        <Param name="disabled" updates="None" val="False" valType="bool"/>
+        <Param name="discard previous" updates="constant" val="True" valType="bool"/>
+        <Param name="durationEstim" updates="None" val="" valType="code"/>
+        <Param name="forceEndRoutine" updates="constant" val="True" valType="bool"/>
+        <Param name="name" updates="None" val="Start" valType="code"/>
+        <Param name="saveStartStop" updates="None" val="True" valType="bool"/>
+        <Param name="startEstim" updates="None" val="" valType="code"/>
+        <Param name="startType" updates="None" val="time (s)" valType="str"/>
+        <Param name="startVal" updates="None" val="0.0" valType="code"/>
+        <Param name="stopType" updates="None" val="duration (s)" valType="str"/>
+        <Param name="stopVal" updates="constant" val="" valType="code"/>
+        <Param name="store" updates="constant" val="last key" valType="str"/>
+        <Param name="storeCorrect" updates="constant" val="False" valType="bool"/>
+        <Param name="syncScreenRefresh" updates="constant" val="True" valType="bool"/>
+      </KeyboardComponent>
+    </Routine>
+    <Routine name="Fixation">
+      <CodeComponent name="code_2">
+        <Param name="Before Experiment" updates="constant" val="" valType="extendedCode"/>
+        <Param name="Before JS Experiment" updates="constant" val="" valType="extendedCode"/>
+        <Param name="Begin Experiment" updates="constant" val="jitter = np.arange(2, 3, .25)&amp;#10;shuffle(jitter)" valType="extendedCode"/>
+        <Param name="Begin JS Experiment" updates="constant" val="" valType="extendedCode"/>
+        <Param name="Begin JS Routine" updates="constant" val="" valType="extendedCode"/>
+        <Param name="Begin Routine" updates="constant" val="jitter = np.arange(3.5, 4.5, .25)&amp;#10;shuffle(jitter)" valType="extendedCode"/>
+        <Param name="Code Type" updates="None" val="Py" valType="str"/>
+        <Param name="Each Frame" updates="constant" val="" valType="extendedCode"/>
+        <Param name="Each JS Frame" updates="constant" val="" valType="extendedCode"/>
+        <Param name="End Experiment" updates="constant" val="" valType="extendedCode"/>
+        <Param name="End JS Experiment" updates="constant" val="" valType="extendedCode"/>
+        <Param name="End JS Routine" updates="constant" val="" valType="extendedCode"/>
+        <Param name="End Routine" updates="constant" val="" valType="extendedCode"/>
+        <Param name="disabled" updates="None" val="False" valType="bool"/>
+        <Param name="name" updates="None" val="code_2" valType="code"/>
+      </CodeComponent>
+      <PolygonComponent name="FixationCross">
+        <Param name="anchor" updates="constant" val="center" valType="str"/>
+        <Param name="colorSpace" updates="constant" val="rgb" valType="str"/>
+        <Param name="contrast" updates="constant" val="1" valType="num"/>
+        <Param name="disabled" updates="None" val="False" valType="bool"/>
+        <Param name="durationEstim" updates="None" val="" valType="code"/>
+        <Param name="fillColor" updates="constant" val="$[1,1,1]" valType="str"/>
+        <Param name="fillColorSpace" updates="constant" val="rgb" valType="str"/>
+        <Param name="interpolate" updates="constant" val="linear" valType="str"/>
+        <Param name="lineColor" updates="constant" val="$[1,1,1]" valType="str"/>
+        <Param name="lineColorSpace" updates="constant" val="rgb" valType="str"/>
+        <Param name="lineWidth" updates="constant" val="1" valType="code"/>
+        <Param name="nVertices" updates="constant" val="4" valType="int"/>
+        <Param name="name" updates="None" val="FixationCross" valType="code"/>
+        <Param name="opacity" updates="constant" val="1" valType="code"/>
+        <Param name="ori" updates="constant" val="0" valType="code"/>
+        <Param name="pos" updates="constant" val="(0, 0)" valType="list"/>
+        <Param name="saveStartStop" updates="None" val="True" valType="bool"/>
+        <Param name="shape" updates="constant" val="cross" valType="str"/>
+        <Param name="size" updates="constant" val="(0.02, 0.02)" valType="list"/>
+        <Param name="startEstim" updates="None" val="" valType="code"/>
+        <Param name="startType" updates="None" val="time (s)" valType="str"/>
+        <Param name="startVal" updates="None" val="" valType="code"/>
+        <Param name="stopType" updates="None" val="duration (s)" valType="str"/>
+        <Param name="stopVal" updates="constant" val="$jitter[0]" valType="code"/>
+        <Param name="syncScreenRefresh" updates="None" val="True" valType="bool"/>
+        <Param name="units" updates="None" val="from exp settings" valType="str"/>
+        <Param name="vertices" updates="constant" val="" valType="list"/>
+      </PolygonComponent>
+    </Routine>
+    <Routine name="conditions1">
+      <CodeComponent name="SendTrigger">
+        <Param name="Before Experiment" updates="constant" val="" valType="extendedCode"/>
+        <Param name="Before JS Experiment" updates="constant" val="" valType="extendedCode"/>
+        <Param name="Begin Experiment" updates="constant" val="" valType="extendedCode"/>
+        <Param name="Begin JS Experiment" updates="constant" val="" valType="extendedCode"/>
+        <Param name="Begin JS Routine" updates="constant" val="" valType="extendedCode"/>
+        <Param name="Begin Routine" updates="constant" val="parallel.setData(int(marker))" valType="extendedCode"/>
+        <Param name="Code Type" updates="None" val="Py" valType="str"/>
+        <Param name="Each Frame" updates="constant" val="" valType="extendedCode"/>
+        <Param name="Each JS Frame" updates="constant" val="" valType="extendedCode"/>
+        <Param name="End Experiment" updates="constant" val="" valType="extendedCode"/>
+        <Param name="End JS Experiment" updates="constant" val="" valType="extendedCode"/>
+        <Param name="End JS Routine" updates="constant" val="" valType="extendedCode"/>
+        <Param name="End Routine" updates="constant" val="" valType="extendedCode"/>
+        <Param name="disabled" updates="None" val="False" valType="bool"/>
+        <Param name="name" updates="None" val="SendTrigger" valType="code"/>
+      </CodeComponent>
+      <ImageComponent name="WebsiteImg">
+        <Param name="anchor" updates="constant" val="center" valType="str"/>
+        <Param name="color" updates="constant" val="$[1,1,1]" valType="str"/>
+        <Param name="colorSpace" updates="constant" val="rgb" valType="str"/>
+        <Param name="contrast" updates="constant" val="1" valType="num"/>
+        <Param name="disabled" updates="None" val="False" valType="bool"/>
+        <Param name="durationEstim" updates="None" val="" valType="code"/>
+        <Param name="flipHoriz" updates="constant" val="False" valType="bool"/>
+        <Param name="flipVert" updates="constant" val="False" valType="bool"/>
+        <Param name="image" updates="set every repeat" val="$image" valType="str"/>
+        <Param name="interpolate" updates="constant" val="linear" valType="str"/>
+        <Param name="mask" updates="constant" val="None" valType="str"/>
+        <Param name="name" updates="None" val="WebsiteImg" valType="code"/>
+        <Param name="opacity" updates="constant" val="1" valType="code"/>
+        <Param name="ori" updates="constant" val="0" valType="code"/>
+        <Param name="pos" updates="constant" val="(0, 0)" valType="list"/>
+        <Param name="saveStartStop" updates="None" val="True" valType="bool"/>
+        <Param name="size" updates="constant" val="(0.55, 1)" valType="list"/>
+        <Param name="startEstim" updates="None" val="" valType="code"/>
+        <Param name="startType" updates="None" val="time (s)" valType="str"/>
+        <Param name="startVal" updates="None" val="0" valType="code"/>
+        <Param name="stopType" updates="None" val="duration (s)" valType="str"/>
+        <Param name="stopVal" updates="constant" val="2.0" valType="code"/>
+        <Param name="syncScreenRefresh" updates="None" val="True" valType="bool"/>
+        <Param name="texture resolution" updates="constant" val="512" valType="code"/>
+        <Param name="units" updates="None" val="from exp settings" valType="str"/>
+      </ImageComponent>
+      <TextComponent name="Frage">
+        <Param name="color" updates="constant" val="white" valType="str"/>
+        <Param name="colorSpace" updates="constant" val="rgb" valType="str"/>
+        <Param name="contrast" updates="constant" val="1" valType="num"/>
+        <Param name="disabled" updates="None" val="False" valType="bool"/>
+        <Param name="durationEstim" updates="None" val="2.0" valType="code"/>
+        <Param name="flip" updates="constant" val="" valType="str"/>
+        <Param name="font" updates="constant" val="Arial" valType="str"/>
+        <Param name="languageStyle" updates="None" val="LTR" valType="str"/>
+        <Param name="letterHeight" updates="constant" val="0.06" valType="code"/>
+        <Param name="name" updates="None" val="Frage" valType="code"/>
+        <Param name="opacity" updates="constant" val="1" valType="code"/>
+        <Param name="ori" updates="constant" val="0" valType="code"/>
+        <Param name="pos" updates="constant" val="(0, 0.1)" valType="list"/>
+        <Param name="saveStartStop" updates="None" val="True" valType="bool"/>
+        <Param name="startEstim" updates="None" val="" valType="code"/>
+        <Param name="startType" updates="None" val="time (s)" valType="str"/>
+        <Param name="startVal" updates="None" val="2.0" valType="code"/>
+        <Param name="stopType" updates="None" val="condition" valType="str"/>
+        <Param name="stopVal" updates="constant" val="" valType="code"/>
+        <Param name="syncScreenRefresh" updates="None" val="True" valType="bool"/>
+        <Param name="text" updates="set every repeat" val="$question" valType="str"/>
+        <Param name="units" updates="None" val="from exp settings" valType="str"/>
+        <Param name="wrapWidth" updates="constant" val="" valType="code"/>
+      </TextComponent>
+      <RatingScaleComponent name="RatingBlau">
+        <Param name="categoryChoices" updates="constant" val="" valType="list"/>
+        <Param name="customize_everything" updates="constant" val="low=1,&amp;#10;high=5,&amp;#10;scale='(Totally disagree)''(Totally agree)',&amp;#10;labels=['Totally disagree','','','','Totally agree'],&amp;#10;singleClick=True,&amp;#10;marker='triangle',&amp;#10;markerStart=3,&amp;#10;noMouse=True,&amp;#10;respKeys=['c','v','b','n','m']" valType="str"/>
+        <Param name="disabled" updates="None" val="False" valType="bool"/>
+        <Param name="disappear" updates="constant" val="False" valType="bool"/>
+        <Param name="durationEstim" updates="None" val="2.0" valType="code"/>
+        <Param name="forceEndRoutine" updates="constant" val="True" valType="bool"/>
+        <Param name="high" updates="constant" val="5" valType="code"/>
+        <Param name="labels" updates="constant" val="" valType="list"/>
+        <Param name="low" updates="constant" val="1" valType="code"/>
+        <Param name="marker" updates="constant" val="triangle" valType="str"/>
+        <Param name="markerStart" updates="constant" val="3" valType="str"/>
+        <Param name="name" updates="None" val="RatingBlau" valType="code"/>
+        <Param name="pos" updates="constant" val="0, -0.4" valType="list"/>
+        <Param name="saveStartStop" updates="None" val="True" valType="bool"/>
+        <Param name="scaleDescription" updates="constant" val="" valType="str"/>
+        <Param name="showAccept" updates="constant" val="False" valType="bool"/>
+        <Param name="singleClick" updates="constant" val="True" valType="bool"/>
+        <Param name="size" updates="constant" val="1" valType="list"/>
+        <Param name="startEstim" updates="None" val="" valType="code"/>
+        <Param name="startType" updates="None" val="time (s)" valType="str"/>
+        <Param name="startVal" updates="None" val="2.0" valType="code"/>
+        <Param name="stopType" updates="None" val="condition" valType="str"/>
+        <Param name="stopVal" updates="constant" val="" valType="code"/>
+        <Param name="storeHistory" updates="constant" val="False" valType="bool"/>
+        <Param name="storeRating" updates="constant" val="True" valType="bool"/>
+        <Param name="storeRatingTime" updates="constant" val="True" valType="bool"/>
+        <Param name="syncScreenRefresh" updates="None" val="False" valType="bool"/>
+        <Param name="tickHeight" updates="constant" val="" valType="str"/>
+        <Param name="visualAnalogScale" updates="constant" val="False" valType="bool"/>
+      </RatingScaleComponent>
+    </Routine>
+  </Routines>
+  <Flow>
+    <Routine name="LSL"/>
+    <Routine name="StartExperiment"/>
+    <LoopInitiator loopType="TrialHandler" name="trials">
+      <Param name="Selected rows" updates="None" val="" valType="str"/>
+      <Param name="conditions" updates="None" val="[{'marker': 1, 'half': 1, 'image': 'Stimuli/HI_adhel_bol.png', 'question': 'I think the shown influencer is trustworthy.', 'construct': 'trust'}, {'marker': 1, 'half': 1, 'image': 'Stimuli/HI_chiaraferragni.png', 'question': 'I think the shown influencer is trustworthy.', 'construct': 'trust'}, {'marker': 1, 'half': 1, 'image': 'Stimuli/HI_emilycanham.png', 'question': 'I think the shown influencer is trustworthy.', 'construct': 'trust'}, {'marker': 1, 'half': 1, 'image': 'Stimuli/HI_flaviapavanelli.png', 'question': 'I think the shown influencer is trustworthy.', 'construct': 'trust'}, {'marker': 1, 'half': 1, 'image': 'Stimuli/HI_imjennim.png', 'question': 'I think the shown influencer is trustworthy.', 'construct': 'trust'}, {'marker': 1, 'half': 1, 'image': 'Stimuli/HI_jenndeugikim.png', 'question': 'I think the shown influencer is trustworthy.', 'construct': 'trust'}, {'marker': 1, 'half': 1, 'image': 'Stimuli/HI_jihye.png', 'question': 'I think the shown influencer is trustworthy.', 'construct': 'trust'}, {'marker': 1, 'half': 1, 'image': 'Stimuli/HI_lamise.png', 'question': 'I think the shown influencer is trustworthy.', 'construct': 'trust'}, {'marker': 1, 'half': 1, 'image': 'Stimuli/HI_rosesarerosie.png', 'question': 'I think the shown influencer is trustworthy.', 'construct': 'trust'}, {'marker': 1, 'half': 1, 'image': 'Stimuli/HI_simoneses.png', 'question': 'I think the shown influencer is trustworthy.', 'construct': 'trust'}, {'marker': 1, 'half': 1, 'image': 'Stimuli/HI_sooyaaa__.png', 'question': 'I think the shown influencer is trustworthy.', 'construct': 'trust'}, {'marker': 2, 'half': 1, 'image': 'Stimuli/VI_bermudaisbae.png', 'question': 'I think the shown influencer is trustworthy.', 'construct': 'trust'}, {'marker': 2, 'half': 1, 'image': 'Stimuli/VI_iamxalara.png', 'question': 'I think the shown influencer is trustworthy.', 'construct': 'trust'}, {'marker': 2, 'half': 1, 'image': 'Stimuli/VI_immagram.png', 'question': 'I think the shown influencer is trustworthy.', 'construct': 'trust'}, {'marker': 2, 'half': 1, 'image': 'Stimuli/VI_leyalovenature.png', 'question': 'I think the shown influencer is trustworthy.', 'construct': 'trust'}, {'marker': 2, 'half': 1, 'image': 'Stimuli/VI_lilmiquela.png', 'question': 'I think the shown influencer is trustworthy.', 'construct': 'trust'}, {'marker': 2, 'half': 1, 'image': 'Stimuli/VI_magazineluiza.png', 'question': 'I think the shown influencer is trustworthy.', 'construct': 'trust'}, {'marker': 2, 'half': 1, 'image': 'Stimuli/VI_noonouri.png', 'question': 'I think the shown influencer is trustworthy.', 'construct': 'trust'}, {'marker': 2, 'half': 1, 'image': 'Stimuli/VI_rozygram.png', 'question': 'I think the shown influencer is trustworthy.', 'construct': 'trust'}, {'marker': 2, 'half': 1, 'image': 'Stimuli/VI_shudu.gram.png', 'question': 'I think the shown influencer is trustworthy.', 'construct': 'trust'}, {'marker': 2, 'half': 1, 'image': 'Stimuli/VI_soymar.ia.png', 'question': 'I think the shown influencer is trustworthy.', 'construct': 'trust'}, {'marker': 1, 'half': 1, 'image': 'Stimuli/HI_adhel_bol.png', 'question': 'I would follow brand recommendations from the shown influencer.', 'construct': 'use'}, {'marker': 1, 'half': 1, 'image': 'Stimuli/HI_chiaraferragni.png', 'question': 'I would follow brand recommendations from the shown influencer.', 'construct': 'use'}, {'marker': 1, 'half': 1, 'image': 'Stimuli/HI_emilycanham.png', 'question': 'I would follow brand recommendations from the shown influencer.', 'construct': 'use'}, {'marker': 1, 'half': 1, 'image': 'Stimuli/HI_flaviapavanelli.png', 'question': 'I would follow brand recommendations from the shown influencer.', 'construct': 'use'}, {'marker': 1, 'half': 1, 'image': 'Stimuli/HI_imjennim.png', 'question': 'I would follow brand recommendations from the shown influencer.', 'construct': 'use'}, {'marker': 1, 'half': 1, 'image': 'Stimuli/HI_jenndeugikim.png', 'question': 'I would follow brand recommendations from the shown influencer.', 'construct': 'use'}, {'marker': 1, 'half': 1, 'image': 'Stimuli/HI_jihye.png', 'question': 'I would follow brand recommendations from the shown influencer.', 'construct': 'use'}, {'marker': 1, 'half': 1, 'image': 'Stimuli/HI_lamise.png', 'question': 'I would follow brand recommendations from the shown influencer.', 'construct': 'use'}, {'marker': 1, 'half': 1, 'image': 'Stimuli/HI_rosesarerosie.png', 'question': 'I would follow brand recommendations from the shown influencer.', 'construct': 'use'}, {'marker': 1, 'half': 1, 'image': 'Stimuli/HI_simoneses.png', 'question': 'I would follow brand recommendations from the shown influencer.', 'construct': 'use'}, {'marker': 1, 'half': 1, 'image': 'Stimuli/HI_sooyaaa__.png', 'question': 'I would follow brand recommendations from the shown influencer.', 'construct': 'use'}, {'marker': 2, 'half': 1, 'image': 'Stimuli/VI_bermudaisbae.png', 'question': 'I would follow brand recommendations from the shown influencer.', 'construct': 'use'}, {'marker': 2, 'half': 1, 'image': 'Stimuli/VI_iamxalara.png', 'question': 'I would follow brand recommendations from the shown influencer.', 'construct': 'use'}, {'marker': 2, 'half': 1, 'image': 'Stimuli/VI_immagram.png', 'question': 'I would follow brand recommendations from the shown influencer.', 'construct': 'use'}, {'marker': 2, 'half': 1, 'image': 'Stimuli/VI_leyalovenature.png', 'question': 'I would follow brand recommendations from the shown influencer.', 'construct': 'use'}, {'marker': 2, 'half': 1, 'image': 'Stimuli/VI_lilmiquela.png', 'question': 'I would follow brand recommendations from the shown influencer.', 'construct': 'use'}, {'marker': 2, 'half': 1, 'image': 'Stimuli/VI_magazineluiza.png', 'question': 'I would follow brand recommendations from the shown influencer.', 'construct': 'use'}, {'marker': 2, 'half': 1, 'image': 'Stimuli/VI_noonouri.png', 'question': 'I would follow brand recommendations from the shown influencer.', 'construct': 'use'}, {'marker': 2, 'half': 1, 'image': 'Stimuli/VI_rozygram.png', 'question': 'I would follow brand recommendations from the shown influencer.', 'construct': 'use'}, {'marker': 2, 'half': 1, 'image': 'Stimuli/VI_shudu.gram.png', 'question': 'I would follow brand recommendations from the shown influencer.', 'construct': 'use'}, {'marker': 2, 'half': 1, 'image': 'Stimuli/VI_soymar.ia.png', 'question': 'I would follow brand recommendations from the shown influencer.', 'construct': 'use'}, {'marker': 1, 'half': 1, 'image': 'Stimuli/HI_adhel_bol.png', 'question': 'I perceived the influencer as uncanny.', 'construct': 'uncanny'}, {'marker': 1, 'half': 1, 'image': 'Stimuli/HI_chiaraferragni.png', 'question': 'I perceived the influencer as uncanny.', 'construct': 'uncanny'}, {'marker': 1, 'half': 1, 'image': 'Stimuli/HI_emilycanham.png', 'question': 'I perceived the influencer as uncanny.', 'construct': 'uncanny'}, {'marker': 1, 'half': 1, 'image': 'Stimuli/HI_flaviapavanelli.png', 'question': 'I perceived the influencer as uncanny.', 'construct': 'uncanny'}, {'marker': 1, 'half': 1, 'image': 'Stimuli/HI_imjennim.png', 'question': 'I perceived the influencer as uncanny.', 'construct': 'uncanny'}, {'marker': 1, 'half': 1, 'image': 'Stimuli/HI_jenndeugikim.png', 'question': 'I perceived the influencer as uncanny.', 'construct': 'uncanny'}, {'marker': 1, 'half': 1, 'image': 'Stimuli/HI_jihye.png', 'question': 'I perceived the influencer as uncanny.', 'construct': 'uncanny'}, {'marker': 1, 'half': 1, 'image': 'Stimuli/HI_lamise.png', 'question': 'I perceived the influencer as uncanny.', 'construct': 'uncanny'}, {'marker': 1, 'half': 1, 'image': 'Stimuli/HI_rosesarerosie.png', 'question': 'I perceived the influencer as uncanny.', 'construct': 'uncanny'}, {'marker': 1, 'half': 1, 'image': 'Stimuli/HI_simoneses.png', 'question': 'I perceived the influencer as uncanny.', 'construct': 'uncanny'}, {'marker': 1, 'half': 1, 'image': 'Stimuli/HI_sooyaaa__.png', 'question': 'I perceived the influencer as uncanny.', 'construct': 'uncanny'}, {'marker': 2, 'half': 1, 'image': 'Stimuli/VI_bermudaisbae.png', 'question': 'I perceived the influencer as uncanny.', 'construct': 'uncanny'}, {'marker': 2, 'half': 1, 'image': 'Stimuli/VI_iamxalara.png', 'question': 'I perceived the influencer as uncanny.', 'construct': 'uncanny'}, {'marker': 2, 'half': 1, 'image': 'Stimuli/VI_immagram.png', 'question': 'I perceived the influencer as uncanny.', 'construct': 'uncanny'}, {'marker': 2, 'half': 1, 'image': 'Stimuli/VI_leyalovenature.png', 'question': 'I perceived the influencer as uncanny.', 'construct': 'uncanny'}, {'marker': 2, 'half': 1, 'image': 'Stimuli/VI_lilmiquela.png', 'question': 'I perceived the influencer as uncanny.', 'construct': 'uncanny'}, {'marker': 2, 'half': 1, 'image': 'Stimuli/VI_magazineluiza.png', 'question': 'I perceived the influencer as uncanny.', 'construct': 'uncanny'}, {'marker': 2, 'half': 1, 'image': 'Stimuli/VI_noonouri.png', 'question': 'I perceived the influencer as uncanny.', 'construct': 'uncanny'}, {'marker': 2, 'half': 1, 'image': 'Stimuli/VI_rozygram.png', 'question': 'I perceived the influencer as uncanny.', 'construct': 'uncanny'}, {'marker': 2, 'half': 1, 'image': 'Stimuli/VI_shudu.gram.png', 'question': 'I perceived the influencer as uncanny.', 'construct': 'uncanny'}, {'marker': 2, 'half': 1, 'image': 'Stimuli/VI_soymar.ia.png', 'question': 'I perceived the influencer as uncanny.', 'construct': 'uncanny'}, {'marker': 1, 'half': 1, 'image': 'Stimuli/HI_adhel_bol.png', 'question': 'How human is the shown influencer?', 'construct': 'human'}, {'marker': 1, 'half': 1, 'image': 'Stimuli/HI_chiaraferragni.png', 'question': 'How human is the shown influencer?', 'construct': 'human'}, {'marker': 1, 'half': 1, 'image': 'Stimuli/HI_emilycanham.png', 'question': 'How human is the shown influencer?', 'construct': 'human'}, {'marker': 1, 'half': 1, 'image': 'Stimuli/HI_flaviapavanelli.png', 'question': 'How human is the shown influencer?', 'construct': 'human'}, {'marker': 1, 'half': 1, 'image': 'Stimuli/HI_imjennim.png', 'question': 'How human is the shown influencer?', 'construct': 'human'}, {'marker': 1, 'half': 1, 'image': 'Stimuli/HI_jenndeugikim.png', 'question': 'How human is the shown influencer?', 'construct': 'human'}, {'marker': 1, 'half': 1, 'image': 'Stimuli/HI_jihye.png', 'question': 'How human is the shown influencer?', 'construct': 'human'}, {'marker': 1, 'half': 1, 'image': 'Stimuli/HI_lamise.png', 'question': 'How human is the shown influencer?', 'construct': 'human'}, {'marker': 1, 'half': 1, 'image': 'Stimuli/HI_rosesarerosie.png', 'question': 'How human is the shown influencer?', 'construct': 'human'}, {'marker': 1, 'half': 1, 'image': 'Stimuli/HI_simoneses.png', 'question': 'How human is the shown influencer?', 'construct': 'human'}, {'marker': 1, 'half': 1, 'image': 'Stimuli/HI_sooyaaa__.png', 'question': 'How human is the shown influencer?', 'construct': 'human'}, {'marker': 2, 'half': 1, 'image': 'Stimuli/VI_bermudaisbae.png', 'question': 'How human is the shown influencer?', 'construct': 'human'}, {'marker': 2, 'half': 1, 'image': 'Stimuli/VI_iamxalara.png', 'question': 'How human is the shown influencer?', 'construct': 'human'}, {'marker': 2, 'half': 1, 'image': 'Stimuli/VI_immagram.png', 'question': 'How human is the shown influencer?', 'construct': 'human'}, {'marker': 2, 'half': 1, 'image': 'Stimuli/VI_leyalovenature.png', 'question': 'How human is the shown influencer?', 'construct': 'human'}, {'marker': 2, 'half': 1, 'image': 'Stimuli/VI_lilmiquela.png', 'question': 'How human is the shown influencer?', 'construct': 'human'}, {'marker': 2, 'half': 1, 'image': 'Stimuli/VI_magazineluiza.png', 'question': 'How human is the shown influencer?', 'construct': 'human'}, {'marker': 2, 'half': 1, 'image': 'Stimuli/VI_noonouri.png', 'question': 'How human is the shown influencer?', 'construct': 'human'}, {'marker': 2, 'half': 1, 'image': 'Stimuli/VI_rozygram.png', 'question': 'How human is the shown influencer?', 'construct': 'human'}, {'marker': 2, 'half': 1, 'image': 'Stimuli/VI_shudu.gram.png', 'question': 'How human is the shown influencer?', 'construct': 'human'}, {'marker': 2, 'half': 1, 'image': 'Stimuli/VI_soymar.ia.png', 'question': 'How human is the shown influencer?', 'construct': 'human'}, {'marker': 1, 'half': 2, 'image': None, 'question': None, 'construct': None}, {'marker': 1, 'half': 2, 'image': None, 'question': None, 'construct': None}, {'marker': 1, 'half': 2, 'image': None, 'question': None, 'construct': None}, {'marker': 1, 'half': 2, 'image': None, 'question': None, 'construct': None}, {'marker': 1, 'half': 2, 'image': None, 'question': None, 'construct': None}, {'marker': 1, 'half': 2, 'image': None, 'question': None, 'construct': None}, {'marker': 1, 'half': 2, 'image': None, 'question': None, 'construct': None}, {'marker': 1, 'half': 2, 'image': None, 'question': None, 'construct': None}, {'marker': 1, 'half': 2, 'image': None, 'question': None, 'construct': None}, {'marker': 1, 'half': 2, 'image': None, 'question': None, 'construct': None}, {'marker': 1, 'half': 2, 'image': None, 'question': None, 'construct': None}, {'marker': 2, 'half': 2, 'image': None, 'question': None, 'construct': None}, {'marker': 2, 'half': 2, 'image': None, 'question': None, 'construct': None}, {'marker': 2, 'half': 2, 'image': None, 'question': None, 'construct': None}, {'marker': 2, 'half': 2, 'image': None, 'question': None, 'construct': None}, {'marker': 2, 'half': 2, 'image': None, 'question': None, 'construct': None}, {'marker': 2, 'half': 2, 'image': None, 'question': None, 'construct': None}, {'marker': 2, 'half': 2, 'image': None, 'question': None, 'construct': None}, {'marker': 2, 'half': 2, 'image': None, 'question': None, 'construct': None}, {'marker': 2, 'half': 2, 'image': None, 'question': None, 'construct': None}, {'marker': 2, 'half': 2, 'image': None, 'question': None, 'construct': None}]" valType="str"/>
+      <Param name="conditionsFile" updates="None" val="conditions.xlsx" valType="str"/>
+      <Param name="endPoints" updates="None" val="[0, 1]" valType="num"/>
+      <Param name="isTrials" updates="None" val="True" valType="bool"/>
+      <Param name="loopType" updates="None" val="fullRandom" valType="str"/>
+      <Param name="nReps" updates="None" val="1" valType="code"/>
+      <Param name="name" updates="None" val="trials" valType="code"/>
+      <Param name="random seed" updates="None" val="" valType="code"/>
+    </LoopInitiator>
+    <Routine name="conditions1"/>
+    <Routine name="Fixation"/>
+    <LoopTerminator name="trials"/>
+    <Routine name="Ende"/>
+  </Flow>
+</PsychoPy2experiment>

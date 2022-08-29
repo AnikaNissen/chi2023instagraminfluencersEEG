@@ -1,0 +1,1466 @@
+15.1327 	WARNING 	Import Error: No module named 'psychtoolbox'. Using event module for keyboard component.
+27.4454 	EXP 	Created window1 = Window(allowGUI=True, allowStencil=False, args=UNKNOWN, autoLog=True, bitsMode=UNKNOWN, blendMode='avg', color=array([0., 0., 0.]), colorSpace='rgb', fullscr=<method-wrapper '__getattribute__' of attributeSetter object at 0x0BC625F0>, gamma=None, gammaErrorPolicy='raise', kwargs=UNKNOWN, lms=UNKNOWN, monitor=<psychopy.monitors.calibTools.Monitor object at 0x0BCAD330>, multiSample=False, name='window1', numSamples=2, pos=[0.0, 0.0], screen=0, size=array([1920, 1080]), stereo=False, units='height', useFBO=True, useRetina=False, viewOri=0.0, viewPos=None, viewScale=None, waitBlanking=True, winType='pyglet')
+27.4455 	EXP 	window1: recordFrameIntervals = False
+27.6115 	EXP 	window1: recordFrameIntervals = True
+27.7120 	DATA 	Mouse: Left button down, pos=(907,734)
+27.7951 	EXP 	window1: recordFrameIntervals = False
+28.2059 	EXP 	Created StartNachricht1 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.06, italic=False, languageStyle='LTR', name='StartNachricht1', opacity=1.0, ori=0, pos=array([0., 0.]), rgb=array([255., 255., 255.]), text='Press START to begin with the experiment.', units='height', win=Window(...), wrapWidth=1)
+28.2656 	EXP 	Created WebsiteImg = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-1.0, flipHoriz=False, flipVert=False, image='sin', interpolate=True, mask=None, maskParams=None, name='WebsiteImg', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([0.55, 1.  ]), texRes=512, units='height', win=Window(...))
+28.2783 	EXP 	Created Frage = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=-2.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.06, italic=False, languageStyle='LTR', name='Frage', opacity=1.0, ori=0, pos=array([0. , 0.1]), rgb=array([255., 255., 255.]), text='default text', units='height', win=Window(...), wrapWidth=1)
+28.3726 	EXP 	Created RatingBlau = RatingScale(__class__=type(...), acceptKeys=['return'], acceptPreText=UNKNOWN, acceptSize=UNKNOWN, acceptText='accept?', autoLog=True, choices=False, depth=0, disappear=False, flipVert=False, high=5, kwargs=UNKNOWN, labels=list(...), leftKeys=['left'], lineColor='White', low=1, marker=ShapeStim(...), markerColor='DarkBlue', markerExpansion=UNKNOWN, markerStart=3.0, maxTime=0.0, minTime=0.4, mouseOnly=False, name='RatingBlau', noMouse=True, pos=[0.0, -0.4], precision=1, respKeys=['c', 'v', 'b', 'n', 'm'], rightKeys=['right'], scale='(Totally disagree)(Totally agree)', self=UNKNOWN, showAccept=True, showValue=True, singleClick=True, size=0.6, skipKeys=['tab'], stretch=1.0, textColor='LightGray', textFont='Helvetica Bold', textSize=0.12, tickHeight=1.0, tickMarks=4.0, win=Window(...))
+28.3747 	EXP 	Created FixationCross = ShapeStim(__class__=<class 'psychopy.visual.shape.ShapeStim'>, autoDraw=False, autoLog=True, closeShape=True, contrast=1.0, depth=-1.0, fillColor=array([1., 1., 1.]), fillColorSpace='rgb', interpolate=True, lineColor=array([1., 1., 1.]), lineColorSpace='rgb', lineWidth=1, name='FixationCross', opacity=1.0, ori=array(0.), pos=array([0., 0.]), size=array([0.02, 0.02]), units='height', vertices=ndarray(...), win=Window(...), windingRule=None)
+28.4100 	EXP 	Created text = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.06, italic=False, languageStyle='LTR', name='text', opacity=1.0, ori=0, pos=array([0., 0.]), rgb=array([255., 255., 255.]), text=str(...), units='height', win=Window(...), wrapWidth=1)
+28.4104 	DATA 	Mouse:  Left button up, pos=(907,734)
+28.4279 	EXP 	RatingBlau: flipVert = False
+28.4279 	EXP 	RatingBlau: autoLog = True
+28.7282 	DATA 	Keypress: z
+28.7446 	EXP 	StartNachricht1: autoDraw = True
+30.6782 	DATA 	Keypress: return
+30.9678 	EXP 	Imported conditions.xlsx as conditions, 80 conditions, 5 params
+30.9685 	EXP 	Created sequence: fullRandom, trialTypes=80, nReps=1, seed=None
+30.9689 	EXP 	New trial (rep=0, index=0): OrderedDict([('marker', 13), ('half', 'VI'), ('image', 'Stimuli/VI_immagram.png'), ('question', 'The shown influencer is a human.'), ('construct', 'human')])
+31.0490 	EXP 	RatingScale RatingBlau: reset()
+31.0780 	EXP 	StartNachricht1: autoDraw = False
+31.0780 	EXP 	WebsiteImg: image = 'Stimuli/VI_immagram.png'
+31.0780 	EXP 	Frage: text = 'The shown influencer is a human.'
+31.0780 	EXP 	WebsiteImg: autoDraw = True
+33.0447 	EXP 	Frage: autoDraw = True
+33.0780 	EXP 	RatingBlau: autoDraw = True
+33.0948 	EXP 	WebsiteImg: autoDraw = False
+37.1966 	DATA 	Keypress: c
+37.1969 	DATA 	RatingScale RatingBlau: (key single-click) rating=1
+37.1969 	DATA 	RatingScale RatingBlau: rating RT=4.152
+37.1969 	DATA 	RatingScale RatingBlau: history=[(3.0, 0.0), (1, 4.152)]
+37.2278 	EXP 	WebsiteImg: autoDraw = False
+37.2278 	EXP 	Frage: autoDraw = False
+37.2278 	EXP 	RatingBlau: autoDraw = False
+37.2278 	EXP 	FixationCross: autoDraw = True
+41.4623 	EXP 	New trial (rep=0, index=1): OrderedDict([('marker', 18), ('half', 'VI'), ('image', 'Stimuli/VI_rozygram.png'), ('question', 'I would follow brand recommendations from the shown influencer.'), ('construct', 'use')])
+41.5678 	EXP 	RatingScale RatingBlau: reset()
+41.5946 	EXP 	FixationCross: autoDraw = False
+41.5946 	EXP 	FixationCross: autoDraw = False
+41.5946 	EXP 	WebsiteImg: image = 'Stimuli/VI_rozygram.png'
+41.5946 	EXP 	Frage: text = 'I would follow brand recommendations from the shown influencer.'
+41.5946 	EXP 	WebsiteImg: autoDraw = True
+43.5613 	EXP 	Frage: autoDraw = True
+43.5779 	EXP 	RatingBlau: autoDraw = True
+43.5946 	EXP 	WebsiteImg: autoDraw = False
+50.0450 	DATA 	Keypress: c
+50.0470 	DATA 	RatingScale RatingBlau: (key single-click) rating=1
+50.0470 	DATA 	RatingScale RatingBlau: rating RT=6.485
+50.0470 	DATA 	RatingScale RatingBlau: history=[(3.0, 0.0), (1, 6.485)]
+50.0779 	EXP 	WebsiteImg: autoDraw = False
+50.0779 	EXP 	Frage: autoDraw = False
+50.0779 	EXP 	RatingBlau: autoDraw = False
+50.0779 	EXP 	FixationCross: autoDraw = True
+54.0622 	EXP 	New trial (rep=0, index=2): OrderedDict([('marker', 4), ('half', 'HI'), ('image', 'Stimuli/HI_flaviapavanelli.png'), ('question', 'The shown influencer is trustworthy.'), ('construct', 'trust')])
+54.1505 	EXP 	RatingScale RatingBlau: reset()
+54.1614 	EXP 	FixationCross: autoDraw = False
+54.1614 	EXP 	FixationCross: autoDraw = False
+54.1614 	EXP 	WebsiteImg: image = 'Stimuli/HI_flaviapavanelli.png'
+54.1614 	EXP 	Frage: text = 'The shown influencer is trustworthy.'
+54.1614 	EXP 	WebsiteImg: autoDraw = True
+56.1447 	EXP 	Frage: autoDraw = True
+56.1611 	EXP 	WebsiteImg: autoDraw = False
+56.1611 	EXP 	RatingBlau: autoDraw = True
+61.0783 	DATA 	Keypress: n
+61.0801 	DATA 	RatingScale RatingBlau: (key single-click) rating=4
+61.0801 	DATA 	RatingScale RatingBlau: rating RT=4.935
+61.0802 	DATA 	RatingScale RatingBlau: history=[(3.0, 0.0), (4, 4.935)]
+61.1110 	EXP 	WebsiteImg: autoDraw = False
+61.1110 	EXP 	Frage: autoDraw = False
+61.1110 	EXP 	RatingBlau: autoDraw = False
+61.1110 	EXP 	FixationCross: autoDraw = True
+64.5953 	EXP 	New trial (rep=0, index=3): OrderedDict([('marker', 16), ('half', 'VI'), ('image', 'Stimuli/VI_magazineluiza.png'), ('question', 'The shown influencer is a human.'), ('construct', 'human')])
+64.6799 	EXP 	RatingScale RatingBlau: reset()
+64.7612 	EXP 	FixationCross: autoDraw = False
+64.7612 	EXP 	FixationCross: autoDraw = False
+64.7612 	EXP 	WebsiteImg: image = 'Stimuli/VI_magazineluiza.png'
+64.7612 	EXP 	Frage: text = 'The shown influencer is a human.'
+64.7612 	EXP 	WebsiteImg: autoDraw = True
+66.6781 	EXP 	Frage: autoDraw = True
+66.6947 	EXP 	RatingBlau: autoDraw = True
+66.7610 	EXP 	WebsiteImg: autoDraw = False
+69.5114 	DATA 	Keypress: m
+69.5133 	DATA 	RatingScale RatingBlau: (key single-click) rating=5
+69.5134 	DATA 	RatingScale RatingBlau: rating RT=2.835
+69.5134 	DATA 	RatingScale RatingBlau: history=[(3.0, 0.0), (5, 2.835)]
+69.5447 	EXP 	WebsiteImg: autoDraw = False
+69.5447 	EXP 	Frage: autoDraw = False
+69.5447 	EXP 	RatingBlau: autoDraw = False
+69.5447 	EXP 	FixationCross: autoDraw = True
+73.5291 	EXP 	New trial (rep=0, index=4): OrderedDict([('marker', 19), ('half', 'VI'), ('image', 'Stimuli/VI_shudu.gram.png'), ('question', 'I perceived the influencer as eerie.'), ('construct', 'uncanny')])
+73.6172 	EXP 	RatingScale RatingBlau: reset()
+73.6285 	EXP 	FixationCross: autoDraw = False
+73.6285 	EXP 	FixationCross: autoDraw = False
+73.6285 	EXP 	WebsiteImg: image = 'Stimuli/VI_shudu.gram.png'
+73.6285 	EXP 	Frage: text = 'I perceived the influencer as eerie.'
+73.6285 	EXP 	WebsiteImg: autoDraw = True
+75.6112 	EXP 	Frage: autoDraw = True
+75.6279 	EXP 	WebsiteImg: autoDraw = False
+75.6279 	EXP 	RatingBlau: autoDraw = True
+80.3281 	DATA 	Keypress: b
+80.3300 	DATA 	RatingScale RatingBlau: (key single-click) rating=3
+80.3300 	DATA 	RatingScale RatingBlau: rating RT=4.718
+80.3300 	DATA 	RatingScale RatingBlau: history=[(3.0, 0.0), (3, 4.718)]
+80.3611 	EXP 	WebsiteImg: autoDraw = False
+80.3611 	EXP 	Frage: autoDraw = False
+80.3611 	EXP 	RatingBlau: autoDraw = False
+80.3611 	EXP 	FixationCross: autoDraw = True
+83.8452 	EXP 	New trial (rep=0, index=5): OrderedDict([('marker', 12), ('half', 'VI'), ('image', 'Stimuli/VI_iamxalara.png'), ('question', 'The shown influencer is trustworthy.'), ('construct', 'trust')])
+83.9288 	EXP 	RatingScale RatingBlau: reset()
+84.0113 	EXP 	FixationCross: autoDraw = False
+84.0113 	EXP 	FixationCross: autoDraw = False
+84.0113 	EXP 	WebsiteImg: image = 'Stimuli/VI_iamxalara.png'
+84.0113 	EXP 	Frage: text = 'The shown influencer is trustworthy.'
+84.0113 	EXP 	WebsiteImg: autoDraw = True
+85.9280 	EXP 	Frage: autoDraw = True
+85.9447 	EXP 	RatingBlau: autoDraw = True
+86.0112 	EXP 	WebsiteImg: autoDraw = False
+88.3282 	DATA 	Keypress: c
+88.3301 	DATA 	RatingScale RatingBlau: (key single-click) rating=1
+88.3301 	DATA 	RatingScale RatingBlau: rating RT=2.402
+88.3301 	DATA 	RatingScale RatingBlau: history=[(3.0, 0.0), (1, 2.402)]
+88.3612 	EXP 	WebsiteImg: autoDraw = False
+88.3612 	EXP 	Frage: autoDraw = False
+88.3612 	EXP 	RatingBlau: autoDraw = False
+88.3612 	EXP 	FixationCross: autoDraw = True
+92.0954 	EXP 	New trial (rep=0, index=6): OrderedDict([('marker', 12), ('half', 'VI'), ('image', 'Stimuli/VI_iamxalara.png'), ('question', 'The shown influencer is a human.'), ('construct', 'human')])
+92.1745 	EXP 	RatingScale RatingBlau: reset()
+92.1942 	EXP 	FixationCross: autoDraw = False
+92.1942 	EXP 	FixationCross: autoDraw = False
+92.1942 	EXP 	WebsiteImg: image = 'Stimuli/VI_iamxalara.png'
+92.1942 	EXP 	Frage: text = 'The shown influencer is a human.'
+92.1942 	EXP 	WebsiteImg: autoDraw = True
+94.1779 	EXP 	Frage: autoDraw = True
+94.1947 	EXP 	WebsiteImg: autoDraw = False
+94.1947 	EXP 	RatingBlau: autoDraw = True
+95.8116 	DATA 	Keypress: c
+95.8141 	DATA 	RatingScale RatingBlau: (key single-click) rating=1
+95.8141 	DATA 	RatingScale RatingBlau: rating RT=1.636
+95.8141 	DATA 	RatingScale RatingBlau: history=[(3.0, 0.0), (1, 1.636)]
+95.8443 	EXP 	WebsiteImg: autoDraw = False
+95.8443 	EXP 	Frage: autoDraw = False
+95.8443 	EXP 	RatingBlau: autoDraw = False
+95.8443 	EXP 	FixationCross: autoDraw = True
+100.0788 	EXP 	New trial (rep=0, index=7): OrderedDict([('marker', 8), ('half', 'HI'), ('image', 'Stimuli/HI_rosesarerosie.png'), ('question', 'I perceived the influencer as eerie.'), ('construct', 'uncanny')])
+100.1656 	EXP 	RatingScale RatingBlau: reset()
+100.2612 	EXP 	FixationCross: autoDraw = False
+100.2612 	EXP 	FixationCross: autoDraw = False
+100.2612 	EXP 	WebsiteImg: image = 'Stimuli/HI_rosesarerosie.png'
+100.2612 	EXP 	Frage: text = 'I perceived the influencer as eerie.'
+100.2612 	EXP 	WebsiteImg: autoDraw = True
+102.1612 	EXP 	Frage: autoDraw = True
+102.1778 	EXP 	RatingBlau: autoDraw = True
+102.2611 	EXP 	WebsiteImg: autoDraw = False
+105.4948 	DATA 	Keypress: m
+105.4966 	DATA 	RatingScale RatingBlau: (key single-click) rating=5
+105.4966 	DATA 	RatingScale RatingBlau: rating RT=3.335
+105.4967 	DATA 	RatingScale RatingBlau: history=[(3.0, 0.0), (5, 3.335)]
+105.5280 	EXP 	WebsiteImg: autoDraw = False
+105.5280 	EXP 	Frage: autoDraw = False
+105.5280 	EXP 	RatingBlau: autoDraw = False
+105.5280 	EXP 	FixationCross: autoDraw = True
+109.5120 	EXP 	New trial (rep=0, index=8): OrderedDict([('marker', 8), ('half', 'HI'), ('image', 'Stimuli/HI_rosesarerosie.png'), ('question', 'The shown influencer is trustworthy.'), ('construct', 'trust')])
+109.5840 	EXP 	RatingScale RatingBlau: reset()
+109.6112 	EXP 	FixationCross: autoDraw = False
+109.6112 	EXP 	FixationCross: autoDraw = False
+109.6112 	EXP 	WebsiteImg: image = 'Stimuli/HI_rosesarerosie.png'
+109.6112 	EXP 	Frage: text = 'The shown influencer is trustworthy.'
+109.6112 	EXP 	WebsiteImg: autoDraw = True
+111.5778 	EXP 	Frage: autoDraw = True
+111.5944 	EXP 	RatingBlau: autoDraw = True
+111.6112 	EXP 	WebsiteImg: autoDraw = False
+115.1778 	DATA 	Keypress: c
+115.1797 	DATA 	RatingScale RatingBlau: (key single-click) rating=1
+115.1797 	DATA 	RatingScale RatingBlau: rating RT=3.602
+115.1798 	DATA 	RatingScale RatingBlau: history=[(3.0, 0.0), (1, 3.601)]
+115.2112 	EXP 	WebsiteImg: autoDraw = False
+115.2112 	EXP 	Frage: autoDraw = False
+115.2112 	EXP 	RatingBlau: autoDraw = False
+115.2112 	EXP 	FixationCross: autoDraw = True
+118.6951 	EXP 	New trial (rep=0, index=9): OrderedDict([('marker', 9), ('half', 'HI'), ('image', 'Stimuli/HI_simoneses.png'), ('question', 'I would follow brand recommendations from the shown influencer.'), ('construct', 'use')])
+118.7991 	EXP 	RatingScale RatingBlau: reset()
+118.8778 	EXP 	FixationCross: autoDraw = False
+118.8778 	EXP 	FixationCross: autoDraw = False
+118.8778 	EXP 	WebsiteImg: image = 'Stimuli/HI_simoneses.png'
+118.8778 	EXP 	Frage: text = 'I would follow brand recommendations from the shown influencer.'
+118.8778 	EXP 	WebsiteImg: autoDraw = True
+120.7943 	EXP 	Frage: autoDraw = True
+120.8111 	EXP 	RatingBlau: autoDraw = True
+120.8775 	EXP 	WebsiteImg: autoDraw = False
+123.9948 	DATA 	Keypress: b
+123.9969 	DATA 	RatingScale RatingBlau: (key single-click) rating=3
+123.9969 	DATA 	RatingScale RatingBlau: rating RT=3.202
+123.9969 	DATA 	RatingScale RatingBlau: history=[(3.0, 0.0), (3, 3.202)]
+124.0275 	EXP 	WebsiteImg: autoDraw = False
+124.0275 	EXP 	Frage: autoDraw = False
+124.0275 	EXP 	RatingBlau: autoDraw = False
+124.0275 	EXP 	FixationCross: autoDraw = True
+128.0121 	EXP 	New trial (rep=0, index=10): OrderedDict([('marker', 8), ('half', 'HI'), ('image', 'Stimuli/HI_rosesarerosie.png'), ('question', 'The shown influencer is a human.'), ('construct', 'human')])
+128.0871 	EXP 	RatingScale RatingBlau: reset()
+128.1776 	EXP 	FixationCross: autoDraw = False
+128.1776 	EXP 	FixationCross: autoDraw = False
+128.1776 	EXP 	WebsiteImg: image = 'Stimuli/HI_rosesarerosie.png'
+128.1776 	EXP 	Frage: text = 'The shown influencer is a human.'
+128.1776 	EXP 	WebsiteImg: autoDraw = True
+130.0945 	EXP 	Frage: autoDraw = True
+130.1111 	EXP 	RatingBlau: autoDraw = True
+130.1776 	EXP 	WebsiteImg: autoDraw = False
+132.3613 	DATA 	Keypress: c
+132.3632 	DATA 	RatingScale RatingBlau: (key single-click) rating=1
+132.3632 	DATA 	RatingScale RatingBlau: rating RT=2.268
+132.3632 	DATA 	RatingScale RatingBlau: history=[(3.0, 0.0), (1, 2.268)]
+132.3945 	EXP 	WebsiteImg: autoDraw = False
+132.3945 	EXP 	Frage: autoDraw = False
+132.3945 	EXP 	RatingBlau: autoDraw = False
+132.3945 	EXP 	FixationCross: autoDraw = True
+136.6284 	EXP 	New trial (rep=0, index=11): OrderedDict([('marker', 15), ('half', 'VI'), ('image', 'Stimuli/VI_lilmiquela.png'), ('question', 'The shown influencer is a human.'), ('construct', 'human')])
+136.6993 	EXP 	RatingScale RatingBlau: reset()
+136.7947 	EXP 	FixationCross: autoDraw = False
+136.7947 	EXP 	FixationCross: autoDraw = False
+136.7947 	EXP 	WebsiteImg: image = 'Stimuli/VI_lilmiquela.png'
+136.7947 	EXP 	Frage: text = 'The shown influencer is a human.'
+136.7947 	EXP 	WebsiteImg: autoDraw = True
+138.6944 	EXP 	Frage: autoDraw = True
+138.7111 	EXP 	RatingBlau: autoDraw = True
+138.7944 	EXP 	WebsiteImg: autoDraw = False
+140.1778 	DATA 	Keypress: c
+140.1797 	DATA 	RatingScale RatingBlau: (key single-click) rating=1
+140.1797 	DATA 	RatingScale RatingBlau: rating RT=1.485
+140.1798 	DATA 	RatingScale RatingBlau: history=[(3.0, 0.0), (1, 1.485)]
+140.2110 	EXP 	WebsiteImg: autoDraw = False
+140.2110 	EXP 	Frage: autoDraw = False
+140.2110 	EXP 	RatingBlau: autoDraw = False
+140.2110 	EXP 	FixationCross: autoDraw = True
+143.9451 	EXP 	New trial (rep=0, index=12): OrderedDict([('marker', 10), ('half', 'HI'), ('image', 'Stimuli/HI_sooyaaa__.png'), ('question', 'The shown influencer is a human.'), ('construct', 'human')])
+144.0453 	EXP 	RatingScale RatingBlau: reset()
+144.0611 	EXP 	FixationCross: autoDraw = False
+144.0611 	EXP 	FixationCross: autoDraw = False
+144.0611 	EXP 	WebsiteImg: image = 'Stimuli/HI_sooyaaa__.png'
+144.0611 	EXP 	Frage: text = 'The shown influencer is a human.'
+144.0611 	EXP 	WebsiteImg: autoDraw = True
+146.0442 	EXP 	Frage: autoDraw = True
+146.0610 	EXP 	WebsiteImg: autoDraw = False
+146.0610 	EXP 	RatingBlau: autoDraw = True
+147.3613 	DATA 	Keypress: m
+147.3632 	DATA 	RatingScale RatingBlau: (key single-click) rating=5
+147.3632 	DATA 	RatingScale RatingBlau: rating RT=1.318
+147.3632 	DATA 	RatingScale RatingBlau: history=[(3.0, 0.0), (5, 1.318)]
+147.3944 	EXP 	WebsiteImg: autoDraw = False
+147.3944 	EXP 	Frage: autoDraw = False
+147.3944 	EXP 	RatingBlau: autoDraw = False
+147.3944 	EXP 	FixationCross: autoDraw = True
+150.8789 	EXP 	New trial (rep=0, index=13): OrderedDict([('marker', 5), ('half', 'HI'), ('image', 'Stimuli/HI_imjennim.png'), ('question', 'I perceived the influencer as eerie.'), ('construct', 'uncanny')])
+150.9643 	EXP 	RatingScale RatingBlau: reset()
+151.0445 	EXP 	FixationCross: autoDraw = False
+151.0445 	EXP 	FixationCross: autoDraw = False
+151.0445 	EXP 	WebsiteImg: image = 'Stimuli/HI_imjennim.png'
+151.0445 	EXP 	Frage: text = 'I perceived the influencer as eerie.'
+151.0445 	EXP 	WebsiteImg: autoDraw = True
+152.9611 	EXP 	Frage: autoDraw = True
+152.9777 	EXP 	RatingBlau: autoDraw = True
+153.0442 	EXP 	WebsiteImg: autoDraw = False
+156.1780 	DATA 	Keypress: v
+156.1800 	DATA 	RatingScale RatingBlau: (key single-click) rating=2
+156.1801 	DATA 	RatingScale RatingBlau: rating RT=3.219
+156.1801 	DATA 	RatingScale RatingBlau: history=[(3.0, 0.0), (2, 3.218)]
+156.2109 	EXP 	WebsiteImg: autoDraw = False
+156.2109 	EXP 	Frage: autoDraw = False
+156.2109 	EXP 	RatingBlau: autoDraw = False
+156.2109 	EXP 	FixationCross: autoDraw = True
+160.4452 	EXP 	New trial (rep=0, index=14): OrderedDict([('marker', 15), ('half', 'VI'), ('image', 'Stimuli/VI_lilmiquela.png'), ('question', 'I would follow brand recommendations from the shown influencer.'), ('construct', 'use')])
+160.5396 	EXP 	RatingScale RatingBlau: reset()
+160.6278 	EXP 	FixationCross: autoDraw = False
+160.6278 	EXP 	FixationCross: autoDraw = False
+160.6278 	EXP 	WebsiteImg: image = 'Stimuli/VI_lilmiquela.png'
+160.6278 	EXP 	Frage: text = 'I would follow brand recommendations from the shown influencer.'
+160.6278 	EXP 	WebsiteImg: autoDraw = True
+162.5443 	EXP 	Frage: autoDraw = True
+162.5608 	EXP 	RatingBlau: autoDraw = True
+162.6276 	EXP 	WebsiteImg: autoDraw = False
+164.5447 	DATA 	Keypress: c
+164.5467 	DATA 	RatingScale RatingBlau: (key single-click) rating=1
+164.5468 	DATA 	RatingScale RatingBlau: rating RT=2.002
+164.5468 	DATA 	RatingScale RatingBlau: history=[(3.0, 0.0), (1, 2.002)]
+164.5777 	EXP 	WebsiteImg: autoDraw = False
+164.5777 	EXP 	Frage: autoDraw = False
+164.5777 	EXP 	RatingBlau: autoDraw = False
+164.5777 	EXP 	FixationCross: autoDraw = True
+168.8115 	EXP 	New trial (rep=0, index=15): OrderedDict([('marker', 11), ('half', 'VI'), ('image', 'Stimuli/VI_bermudaisbae.png'), ('question', 'I would follow brand recommendations from the shown influencer.'), ('construct', 'use')])
+168.8862 	EXP 	RatingScale RatingBlau: reset()
+168.9108 	EXP 	FixationCross: autoDraw = False
+168.9108 	EXP 	FixationCross: autoDraw = False
+168.9108 	EXP 	WebsiteImg: image = 'Stimuli/VI_bermudaisbae.png'
+168.9108 	EXP 	Frage: text = 'I would follow brand recommendations from the shown influencer.'
+168.9108 	EXP 	WebsiteImg: autoDraw = True
+170.8777 	EXP 	Frage: autoDraw = True
+170.8945 	EXP 	RatingBlau: autoDraw = True
+170.9108 	EXP 	WebsiteImg: autoDraw = False
+172.4779 	DATA 	Keypress: c
+172.4798 	DATA 	RatingScale RatingBlau: (key single-click) rating=1
+172.4798 	DATA 	RatingScale RatingBlau: rating RT=1.602
+172.4798 	DATA 	RatingScale RatingBlau: history=[(3.0, 0.0), (1, 1.602)]
+172.5109 	EXP 	WebsiteImg: autoDraw = False
+172.5109 	EXP 	Frage: autoDraw = False
+172.5109 	EXP 	RatingBlau: autoDraw = False
+172.5109 	EXP 	FixationCross: autoDraw = True
+176.7451 	EXP 	New trial (rep=0, index=16): OrderedDict([('marker', 15), ('half', 'VI'), ('image', 'Stimuli/VI_lilmiquela.png'), ('question', 'I perceived the influencer as eerie.'), ('construct', 'uncanny')])
+176.8413 	EXP 	RatingScale RatingBlau: reset()
+176.8608 	EXP 	FixationCross: autoDraw = False
+176.8608 	EXP 	FixationCross: autoDraw = False
+176.8608 	EXP 	WebsiteImg: image = 'Stimuli/VI_lilmiquela.png'
+176.8608 	EXP 	Frage: text = 'I perceived the influencer as eerie.'
+176.8608 	EXP 	WebsiteImg: autoDraw = True
+178.8442 	EXP 	Frage: autoDraw = True
+178.8609 	EXP 	WebsiteImg: autoDraw = False
+178.8609 	EXP 	RatingBlau: autoDraw = True
+180.6278 	DATA 	Keypress: m
+180.6296 	DATA 	RatingScale RatingBlau: (key single-click) rating=5
+180.6297 	DATA 	RatingScale RatingBlau: rating RT=1.785
+180.6297 	DATA 	RatingScale RatingBlau: history=[(3.0, 0.0), (5, 1.785)]
+180.6608 	EXP 	WebsiteImg: autoDraw = False
+180.6608 	EXP 	Frage: autoDraw = False
+180.6608 	EXP 	RatingBlau: autoDraw = False
+180.6608 	EXP 	FixationCross: autoDraw = True
+184.1451 	EXP 	New trial (rep=0, index=17): OrderedDict([('marker', 10), ('half', 'HI'), ('image', 'Stimuli/HI_sooyaaa__.png'), ('question', 'I would follow brand recommendations from the shown influencer.'), ('construct', 'use')])
+184.2375 	EXP 	RatingScale RatingBlau: reset()
+184.2608 	EXP 	FixationCross: autoDraw = False
+184.2608 	EXP 	FixationCross: autoDraw = False
+184.2608 	EXP 	WebsiteImg: image = 'Stimuli/HI_sooyaaa__.png'
+184.2608 	EXP 	Frage: text = 'I would follow brand recommendations from the shown influencer.'
+184.2608 	EXP 	WebsiteImg: autoDraw = True
+186.2442 	EXP 	Frage: autoDraw = True
+186.2608 	EXP 	WebsiteImg: autoDraw = False
+186.2608 	EXP 	RatingBlau: autoDraw = True
+192.6278 	DATA 	Keypress: v
+192.6298 	DATA 	RatingScale RatingBlau: (key single-click) rating=2
+192.6298 	DATA 	RatingScale RatingBlau: rating RT=6.385
+192.6298 	DATA 	RatingScale RatingBlau: history=[(3.0, 0.0), (2, 6.385)]
+192.6608 	EXP 	WebsiteImg: autoDraw = False
+192.6608 	EXP 	Frage: autoDraw = False
+192.6608 	EXP 	RatingBlau: autoDraw = False
+192.6608 	EXP 	FixationCross: autoDraw = True
+196.8952 	EXP 	New trial (rep=0, index=18): OrderedDict([('marker', 18), ('half', 'VI'), ('image', 'Stimuli/VI_rozygram.png'), ('question', 'The shown influencer is a human.'), ('construct', 'human')])
+196.9687 	EXP 	RatingScale RatingBlau: reset()
+197.0445 	EXP 	FixationCross: autoDraw = False
+197.0445 	EXP 	FixationCross: autoDraw = False
+197.0445 	EXP 	WebsiteImg: image = 'Stimuli/VI_rozygram.png'
+197.0445 	EXP 	Frage: text = 'The shown influencer is a human.'
+197.0445 	EXP 	WebsiteImg: autoDraw = True
+198.9609 	EXP 	Frage: autoDraw = True
+198.9774 	EXP 	RatingBlau: autoDraw = True
+199.0441 	EXP 	WebsiteImg: autoDraw = False
+200.9945 	DATA 	Keypress: c
+200.9967 	DATA 	RatingScale RatingBlau: (key single-click) rating=1
+200.9967 	DATA 	RatingScale RatingBlau: rating RT=2.035
+200.9967 	DATA 	RatingScale RatingBlau: history=[(3.0, 0.0), (1, 2.035)]
+201.0276 	EXP 	WebsiteImg: autoDraw = False
+201.0276 	EXP 	Frage: autoDraw = False
+201.0276 	EXP 	RatingBlau: autoDraw = False
+201.0276 	EXP 	FixationCross: autoDraw = True
+205.2616 	EXP 	New trial (rep=0, index=19): OrderedDict([('marker', 18), ('half', 'VI'), ('image', 'Stimuli/VI_rozygram.png'), ('question', 'I perceived the influencer as eerie.'), ('construct', 'uncanny')])
+205.3433 	EXP 	RatingScale RatingBlau: reset()
+205.3607 	EXP 	FixationCross: autoDraw = False
+205.3607 	EXP 	FixationCross: autoDraw = False
+205.3607 	EXP 	WebsiteImg: image = 'Stimuli/VI_rozygram.png'
+205.3607 	EXP 	Frage: text = 'I perceived the influencer as eerie.'
+205.3607 	EXP 	WebsiteImg: autoDraw = True
+207.3441 	EXP 	Frage: autoDraw = True
+207.3607 	EXP 	WebsiteImg: autoDraw = False
+207.3607 	EXP 	RatingBlau: autoDraw = True
+209.6781 	DATA 	Keypress: m
+209.6802 	DATA 	RatingScale RatingBlau: (key single-click) rating=5
+209.6802 	DATA 	RatingScale RatingBlau: rating RT=2.336
+209.6802 	DATA 	RatingScale RatingBlau: history=[(3.0, 0.0), (5, 2.336)]
+209.7110 	EXP 	WebsiteImg: autoDraw = False
+209.7110 	EXP 	Frage: autoDraw = False
+209.7110 	EXP 	RatingBlau: autoDraw = False
+209.7110 	EXP 	FixationCross: autoDraw = True
+213.9449 	EXP 	New trial (rep=0, index=20): OrderedDict([('marker', 7), ('half', 'HI'), ('image', 'Stimuli/HI_lamise.png'), ('question', 'The shown influencer is a human.'), ('construct', 'human')])
+214.0300 	EXP 	RatingScale RatingBlau: reset()
+214.1109 	EXP 	FixationCross: autoDraw = False
+214.1109 	EXP 	FixationCross: autoDraw = False
+214.1109 	EXP 	WebsiteImg: image = 'Stimuli/HI_lamise.png'
+214.1109 	EXP 	Frage: text = 'The shown influencer is a human.'
+214.1109 	EXP 	WebsiteImg: autoDraw = True
+216.0276 	EXP 	Frage: autoDraw = True
+216.0441 	EXP 	RatingBlau: autoDraw = True
+216.1107 	EXP 	WebsiteImg: autoDraw = False
+217.6111 	DATA 	Keypress: m
+217.6130 	DATA 	RatingScale RatingBlau: (key single-click) rating=5
+217.6130 	DATA 	RatingScale RatingBlau: rating RT=1.585
+217.6130 	DATA 	RatingScale RatingBlau: history=[(3.0, 0.0), (5, 1.585)]
+217.6441 	EXP 	WebsiteImg: autoDraw = False
+217.6441 	EXP 	Frage: autoDraw = False
+217.6441 	EXP 	RatingBlau: autoDraw = False
+217.6441 	EXP 	FixationCross: autoDraw = True
+221.8780 	EXP 	New trial (rep=0, index=21): OrderedDict([('marker', 17), ('half', 'VI'), ('image', 'Stimuli/VI_noonouri.png'), ('question', 'I perceived the influencer as eerie.'), ('construct', 'uncanny')])
+221.9585 	EXP 	RatingScale RatingBlau: reset()
+222.0442 	EXP 	FixationCross: autoDraw = False
+222.0442 	EXP 	FixationCross: autoDraw = False
+222.0442 	EXP 	WebsiteImg: image = 'Stimuli/VI_noonouri.png'
+222.0442 	EXP 	Frage: text = 'I perceived the influencer as eerie.'
+222.0442 	EXP 	WebsiteImg: autoDraw = True
+223.9607 	EXP 	Frage: autoDraw = True
+223.9775 	EXP 	RatingBlau: autoDraw = True
+224.0441 	EXP 	WebsiteImg: autoDraw = False
+226.0444 	DATA 	Keypress: m
+226.0464 	DATA 	RatingScale RatingBlau: (key single-click) rating=5
+226.0464 	DATA 	RatingScale RatingBlau: rating RT=2.085
+226.0464 	DATA 	RatingScale RatingBlau: history=[(3.0, 0.0), (5, 2.085)]
+226.0776 	EXP 	WebsiteImg: autoDraw = False
+226.0776 	EXP 	Frage: autoDraw = False
+226.0776 	EXP 	RatingBlau: autoDraw = False
+226.0776 	EXP 	FixationCross: autoDraw = True
+229.8117 	EXP 	New trial (rep=0, index=22): OrderedDict([('marker', 3), ('half', 'HI'), ('image', 'Stimuli/HI_emilycanham.png'), ('question', 'The shown influencer is a human.'), ('construct', 'human')])
+229.8968 	EXP 	RatingScale RatingBlau: reset()
+229.9777 	EXP 	FixationCross: autoDraw = False
+229.9777 	EXP 	FixationCross: autoDraw = False
+229.9777 	EXP 	WebsiteImg: image = 'Stimuli/HI_emilycanham.png'
+229.9777 	EXP 	Frage: text = 'The shown influencer is a human.'
+229.9777 	EXP 	WebsiteImg: autoDraw = True
+231.8941 	EXP 	Frage: autoDraw = True
+231.9110 	EXP 	RatingBlau: autoDraw = True
+231.9773 	EXP 	WebsiteImg: autoDraw = False
+234.5626 	DATA 	Keypress: n
+234.5629 	DATA 	RatingScale RatingBlau: (key single-click) rating=4
+234.5629 	DATA 	RatingScale RatingBlau: rating RT=2.668
+234.5630 	DATA 	RatingScale RatingBlau: history=[(3.0, 0.0), (4, 2.668)]
+234.5941 	EXP 	WebsiteImg: autoDraw = False
+234.5941 	EXP 	Frage: autoDraw = False
+234.5941 	EXP 	RatingBlau: autoDraw = False
+234.5941 	EXP 	FixationCross: autoDraw = True
+238.3281 	EXP 	New trial (rep=0, index=23): OrderedDict([('marker', 7), ('half', 'HI'), ('image', 'Stimuli/HI_lamise.png'), ('question', 'I perceived the influencer as eerie.'), ('construct', 'uncanny')])
+238.4062 	EXP 	RatingScale RatingBlau: reset()
+238.4942 	EXP 	FixationCross: autoDraw = False
+238.4942 	EXP 	FixationCross: autoDraw = False
+238.4942 	EXP 	WebsiteImg: image = 'Stimuli/HI_lamise.png'
+238.4942 	EXP 	Frage: text = 'I perceived the influencer as eerie.'
+238.4942 	EXP 	WebsiteImg: autoDraw = True
+240.4107 	EXP 	Frage: autoDraw = True
+240.4272 	EXP 	RatingBlau: autoDraw = True
+240.4941 	EXP 	WebsiteImg: autoDraw = False
+242.2944 	DATA 	Keypress: c
+242.2962 	DATA 	RatingScale RatingBlau: (key single-click) rating=1
+242.2963 	DATA 	RatingScale RatingBlau: rating RT=1.885
+242.2963 	DATA 	RatingScale RatingBlau: history=[(3.0, 0.0), (1, 1.885)]
+242.3272 	EXP 	WebsiteImg: autoDraw = False
+242.3272 	EXP 	Frage: autoDraw = False
+242.3272 	EXP 	RatingBlau: autoDraw = False
+242.3272 	EXP 	FixationCross: autoDraw = True
+245.8114 	EXP 	New trial (rep=0, index=24): OrderedDict([('marker', 10), ('half', 'HI'), ('image', 'Stimuli/HI_sooyaaa__.png'), ('question', 'I perceived the influencer as eerie.'), ('construct', 'uncanny')])
+245.8766 	EXP 	RatingScale RatingBlau: reset()
+245.9607 	EXP 	FixationCross: autoDraw = False
+245.9607 	EXP 	FixationCross: autoDraw = False
+245.9607 	EXP 	WebsiteImg: image = 'Stimuli/HI_sooyaaa__.png'
+245.9607 	EXP 	Frage: text = 'I perceived the influencer as eerie.'
+245.9607 	EXP 	WebsiteImg: autoDraw = True
+247.8773 	EXP 	Frage: autoDraw = True
+247.8941 	EXP 	RatingBlau: autoDraw = True
+247.9608 	EXP 	WebsiteImg: autoDraw = False
+251.4945 	DATA 	Keypress: v
+251.4965 	DATA 	RatingScale RatingBlau: (key single-click) rating=2
+251.4965 	DATA 	RatingScale RatingBlau: rating RT=3.619
+251.4965 	DATA 	RatingScale RatingBlau: history=[(3.0, 0.0), (2, 3.619)]
+251.5272 	EXP 	WebsiteImg: autoDraw = False
+251.5272 	EXP 	Frage: autoDraw = False
+251.5272 	EXP 	RatingBlau: autoDraw = False
+251.5272 	EXP 	FixationCross: autoDraw = True
+255.2615 	EXP 	New trial (rep=0, index=25): OrderedDict([('marker', 9), ('half', 'HI'), ('image', 'Stimuli/HI_simoneses.png'), ('question', 'I perceived the influencer as eerie.'), ('construct', 'uncanny')])
+255.3239 	EXP 	RatingScale RatingBlau: reset()
+255.4106 	EXP 	FixationCross: autoDraw = False
+255.4106 	EXP 	FixationCross: autoDraw = False
+255.4106 	EXP 	WebsiteImg: image = 'Stimuli/HI_simoneses.png'
+255.4106 	EXP 	Frage: text = 'I perceived the influencer as eerie.'
+255.4106 	EXP 	WebsiteImg: autoDraw = True
+257.3273 	EXP 	Frage: autoDraw = True
+257.3441 	EXP 	RatingBlau: autoDraw = True
+257.4106 	EXP 	WebsiteImg: autoDraw = False
+259.2443 	DATA 	Keypress: c
+259.2462 	DATA 	RatingScale RatingBlau: (key single-click) rating=1
+259.2462 	DATA 	RatingScale RatingBlau: rating RT=1.918
+259.2462 	DATA 	RatingScale RatingBlau: history=[(3.0, 0.0), (1, 1.918)]
+259.2773 	EXP 	WebsiteImg: autoDraw = False
+259.2773 	EXP 	Frage: autoDraw = False
+259.2773 	EXP 	RatingBlau: autoDraw = False
+259.2773 	EXP 	FixationCross: autoDraw = True
+263.0114 	EXP 	New trial (rep=0, index=26): OrderedDict([('marker', 11), ('half', 'VI'), ('image', 'Stimuli/VI_bermudaisbae.png'), ('question', 'The shown influencer is a human.'), ('construct', 'human')])
+263.0860 	EXP 	RatingScale RatingBlau: reset()
+263.1774 	EXP 	FixationCross: autoDraw = False
+263.1774 	EXP 	FixationCross: autoDraw = False
+263.1774 	EXP 	WebsiteImg: image = 'Stimuli/VI_bermudaisbae.png'
+263.1774 	EXP 	Frage: text = 'The shown influencer is a human.'
+263.1774 	EXP 	WebsiteImg: autoDraw = True
+265.0774 	EXP 	Frage: autoDraw = True
+265.0941 	EXP 	RatingBlau: autoDraw = True
+265.1774 	EXP 	WebsiteImg: autoDraw = False
+268.1444 	DATA 	Keypress: c
+268.1462 	DATA 	RatingScale RatingBlau: (key single-click) rating=1
+268.1462 	DATA 	RatingScale RatingBlau: rating RT=3.068
+268.1462 	DATA 	RatingScale RatingBlau: history=[(3.0, 0.0), (1, 3.068)]
+268.1773 	EXP 	WebsiteImg: autoDraw = False
+268.1773 	EXP 	Frage: autoDraw = False
+268.1773 	EXP 	RatingBlau: autoDraw = False
+268.1773 	EXP 	FixationCross: autoDraw = True
+272.4112 	EXP 	New trial (rep=0, index=27): OrderedDict([('marker', 14), ('half', 'VI'), ('image', 'Stimuli/VI_leyalovenature.png'), ('question', 'The shown influencer is a human.'), ('construct', 'human')])
+272.4782 	EXP 	RatingScale RatingBlau: reset()
+272.5607 	EXP 	FixationCross: autoDraw = False
+272.5607 	EXP 	FixationCross: autoDraw = False
+272.5607 	EXP 	WebsiteImg: image = 'Stimuli/VI_leyalovenature.png'
+272.5607 	EXP 	Frage: text = 'The shown influencer is a human.'
+272.5607 	EXP 	WebsiteImg: autoDraw = True
+274.4774 	EXP 	Frage: autoDraw = True
+274.4940 	EXP 	RatingBlau: autoDraw = True
+274.5605 	EXP 	WebsiteImg: autoDraw = False
+276.1630 	DATA 	Keypress: c
+276.1633 	DATA 	RatingScale RatingBlau: (key single-click) rating=1
+276.1633 	DATA 	RatingScale RatingBlau: rating RT=1.685
+276.1633 	DATA 	RatingScale RatingBlau: history=[(3.0, 0.0), (1, 1.685)]
+276.1939 	EXP 	WebsiteImg: autoDraw = False
+276.1939 	EXP 	Frage: autoDraw = False
+276.1939 	EXP 	RatingBlau: autoDraw = False
+276.1939 	EXP 	FixationCross: autoDraw = True
+279.9282 	EXP 	New trial (rep=0, index=28): OrderedDict([('marker', 11), ('half', 'VI'), ('image', 'Stimuli/VI_bermudaisbae.png'), ('question', 'The shown influencer is trustworthy.'), ('construct', 'trust')])
+280.0000 	EXP 	RatingScale RatingBlau: reset()
+280.0776 	EXP 	FixationCross: autoDraw = False
+280.0776 	EXP 	FixationCross: autoDraw = False
+280.0776 	EXP 	WebsiteImg: image = 'Stimuli/VI_bermudaisbae.png'
+280.0776 	EXP 	Frage: text = 'The shown influencer is trustworthy.'
+280.0776 	EXP 	WebsiteImg: autoDraw = True
+281.9940 	EXP 	Frage: autoDraw = True
+282.0105 	EXP 	RatingBlau: autoDraw = True
+282.0773 	EXP 	WebsiteImg: autoDraw = False
+284.2276 	DATA 	Keypress: c
+284.2295 	DATA 	RatingScale RatingBlau: (key single-click) rating=1
+284.2295 	DATA 	RatingScale RatingBlau: rating RT=2.235
+284.2295 	DATA 	RatingScale RatingBlau: history=[(3.0, 0.0), (1, 2.235)]
+284.2605 	EXP 	WebsiteImg: autoDraw = False
+284.2605 	EXP 	Frage: autoDraw = False
+284.2605 	EXP 	RatingBlau: autoDraw = False
+284.2605 	EXP 	FixationCross: autoDraw = True
+287.7445 	EXP 	New trial (rep=0, index=29): OrderedDict([('marker', 14), ('half', 'VI'), ('image', 'Stimuli/VI_leyalovenature.png'), ('question', 'I would follow brand recommendations from the shown influencer.'), ('construct', 'use')])
+287.8337 	EXP 	RatingScale RatingBlau: reset()
+287.9112 	EXP 	FixationCross: autoDraw = False
+287.9112 	EXP 	FixationCross: autoDraw = False
+287.9112 	EXP 	WebsiteImg: image = 'Stimuli/VI_leyalovenature.png'
+287.9112 	EXP 	Frage: text = 'I would follow brand recommendations from the shown influencer.'
+287.9112 	EXP 	WebsiteImg: autoDraw = True
+289.8272 	EXP 	Frage: autoDraw = True
+289.8439 	EXP 	RatingBlau: autoDraw = True
+289.9111 	EXP 	WebsiteImg: autoDraw = False
+293.0940 	DATA 	Keypress: c
+293.0960 	DATA 	RatingScale RatingBlau: (key single-click) rating=1
+293.0960 	DATA 	RatingScale RatingBlau: rating RT=3.268
+293.0960 	DATA 	RatingScale RatingBlau: history=[(3.0, 0.0), (1, 3.268)]
+293.1271 	EXP 	WebsiteImg: autoDraw = False
+293.1271 	EXP 	Frage: autoDraw = False
+293.1271 	EXP 	RatingBlau: autoDraw = False
+293.1271 	EXP 	FixationCross: autoDraw = True
+296.8613 	EXP 	New trial (rep=0, index=30): OrderedDict([('marker', 10), ('half', 'HI'), ('image', 'Stimuli/HI_sooyaaa__.png'), ('question', 'The shown influencer is trustworthy.'), ('construct', 'trust')])
+296.9442 	EXP 	RatingScale RatingBlau: reset()
+297.0273 	EXP 	FixationCross: autoDraw = False
+297.0273 	EXP 	FixationCross: autoDraw = False
+297.0273 	EXP 	WebsiteImg: image = 'Stimuli/HI_sooyaaa__.png'
+297.0273 	EXP 	Frage: text = 'The shown influencer is trustworthy.'
+297.0273 	EXP 	WebsiteImg: autoDraw = True
+298.9272 	EXP 	Frage: autoDraw = True
+298.9438 	EXP 	RatingBlau: autoDraw = True
+299.0273 	EXP 	WebsiteImg: autoDraw = False
+302.5275 	DATA 	Keypress: c
+302.5294 	DATA 	RatingScale RatingBlau: (key single-click) rating=1
+302.5294 	DATA 	RatingScale RatingBlau: rating RT=3.602
+302.5294 	DATA 	RatingScale RatingBlau: history=[(3.0, 0.0), (1, 3.602)]
+302.5607 	EXP 	WebsiteImg: autoDraw = False
+302.5607 	EXP 	Frage: autoDraw = False
+302.5607 	EXP 	RatingBlau: autoDraw = False
+302.5607 	EXP 	FixationCross: autoDraw = True
+306.2945 	EXP 	New trial (rep=0, index=31): OrderedDict([('marker', 2), ('half', 'HI'), ('image', 'Stimuli/HI_chiaraferragni.png'), ('question', 'I perceived the influencer as eerie.'), ('construct', 'uncanny')])
+306.3861 	EXP 	RatingScale RatingBlau: reset()
+306.4772 	EXP 	FixationCross: autoDraw = False
+306.4772 	EXP 	FixationCross: autoDraw = False
+306.4772 	EXP 	WebsiteImg: image = 'Stimuli/HI_chiaraferragni.png'
+306.4772 	EXP 	Frage: text = 'I perceived the influencer as eerie.'
+306.4772 	EXP 	WebsiteImg: autoDraw = True
+308.3937 	EXP 	Frage: autoDraw = True
+308.4106 	EXP 	RatingBlau: autoDraw = True
+308.4774 	EXP 	WebsiteImg: autoDraw = False
+310.4775 	DATA 	Keypress: v
+310.4795 	DATA 	RatingScale RatingBlau: (key single-click) rating=2
+310.4795 	DATA 	RatingScale RatingBlau: rating RT=2.085
+310.4795 	DATA 	RatingScale RatingBlau: history=[(3.0, 0.0), (2, 2.085)]
+310.5104 	EXP 	WebsiteImg: autoDraw = False
+310.5104 	EXP 	Frage: autoDraw = False
+310.5104 	EXP 	RatingBlau: autoDraw = False
+310.5104 	EXP 	FixationCross: autoDraw = True
+313.9948 	EXP 	New trial (rep=0, index=32): OrderedDict([('marker', 16), ('half', 'VI'), ('image', 'Stimuli/VI_magazineluiza.png'), ('question', 'I would follow brand recommendations from the shown influencer.'), ('construct', 'use')])
+314.0885 	EXP 	RatingScale RatingBlau: reset()
+314.1773 	EXP 	FixationCross: autoDraw = False
+314.1773 	EXP 	FixationCross: autoDraw = False
+314.1773 	EXP 	WebsiteImg: image = 'Stimuli/VI_magazineluiza.png'
+314.1773 	EXP 	Frage: text = 'I would follow brand recommendations from the shown influencer.'
+314.1773 	EXP 	WebsiteImg: autoDraw = True
+316.0938 	EXP 	Frage: autoDraw = True
+316.1105 	EXP 	RatingBlau: autoDraw = True
+316.1771 	EXP 	WebsiteImg: autoDraw = False
+318.0123 	DATA 	Keypress: c
+318.0126 	DATA 	RatingScale RatingBlau: (key single-click) rating=1
+318.0127 	DATA 	RatingScale RatingBlau: rating RT=1.918
+318.0127 	DATA 	RatingScale RatingBlau: history=[(3.0, 0.0), (1, 1.918)]
+318.0437 	EXP 	WebsiteImg: autoDraw = False
+318.0437 	EXP 	Frage: autoDraw = False
+318.0437 	EXP 	RatingBlau: autoDraw = False
+318.0437 	EXP 	FixationCross: autoDraw = True
+321.5279 	EXP 	New trial (rep=0, index=33): OrderedDict([('marker', 2), ('half', 'HI'), ('image', 'Stimuli/HI_chiaraferragni.png'), ('question', 'The shown influencer is a human.'), ('construct', 'human')])
+321.6059 	EXP 	RatingScale RatingBlau: reset()
+321.6939 	EXP 	FixationCross: autoDraw = False
+321.6939 	EXP 	FixationCross: autoDraw = False
+321.6939 	EXP 	WebsiteImg: image = 'Stimuli/HI_chiaraferragni.png'
+321.6939 	EXP 	Frage: text = 'The shown influencer is a human.'
+321.6939 	EXP 	WebsiteImg: autoDraw = True
+323.6105 	EXP 	Frage: autoDraw = True
+323.6270 	EXP 	RatingBlau: autoDraw = True
+323.6938 	EXP 	WebsiteImg: autoDraw = False
+326.5275 	DATA 	Keypress: n
+326.5293 	DATA 	RatingScale RatingBlau: (key single-click) rating=4
+326.5293 	DATA 	RatingScale RatingBlau: rating RT=2.918
+326.5293 	DATA 	RatingScale RatingBlau: history=[(3.0, 0.0), (4, 2.918)]
+326.5605 	EXP 	WebsiteImg: autoDraw = False
+326.5605 	EXP 	Frage: autoDraw = False
+326.5605 	EXP 	RatingBlau: autoDraw = False
+326.5605 	EXP 	FixationCross: autoDraw = True
+330.5446 	EXP 	New trial (rep=0, index=34): OrderedDict([('marker', 18), ('half', 'VI'), ('image', 'Stimuli/VI_rozygram.png'), ('question', 'The shown influencer is trustworthy.'), ('construct', 'trust')])
+330.6162 	EXP 	RatingScale RatingBlau: reset()
+330.7106 	EXP 	FixationCross: autoDraw = False
+330.7106 	EXP 	FixationCross: autoDraw = False
+330.7106 	EXP 	WebsiteImg: image = 'Stimuli/VI_rozygram.png'
+330.7106 	EXP 	Frage: text = 'The shown influencer is trustworthy.'
+330.7106 	EXP 	WebsiteImg: autoDraw = True
+332.6105 	EXP 	Frage: autoDraw = True
+332.6270 	EXP 	RatingBlau: autoDraw = True
+332.7105 	EXP 	WebsiteImg: autoDraw = False
+336.2123 	DATA 	Keypress: b
+336.2126 	DATA 	RatingScale RatingBlau: (key single-click) rating=3
+336.2126 	DATA 	RatingScale RatingBlau: rating RT=3.601
+336.2126 	DATA 	RatingScale RatingBlau: history=[(3.0, 0.0), (3, 3.601)]
+336.2437 	EXP 	WebsiteImg: autoDraw = False
+336.2437 	EXP 	Frage: autoDraw = False
+336.2437 	EXP 	RatingBlau: autoDraw = False
+336.2437 	EXP 	FixationCross: autoDraw = True
+339.7276 	EXP 	New trial (rep=0, index=35): OrderedDict([('marker', 5), ('half', 'HI'), ('image', 'Stimuli/HI_imjennim.png'), ('question', 'The shown influencer is trustworthy.'), ('construct', 'trust')])
+339.7833 	EXP 	RatingScale RatingBlau: reset()
+339.8603 	EXP 	FixationCross: autoDraw = False
+339.8603 	EXP 	FixationCross: autoDraw = False
+339.8603 	EXP 	WebsiteImg: image = 'Stimuli/HI_imjennim.png'
+339.8603 	EXP 	Frage: text = 'The shown influencer is trustworthy.'
+339.8603 	EXP 	WebsiteImg: autoDraw = True
+341.7769 	EXP 	Frage: autoDraw = True
+341.7936 	EXP 	RatingBlau: autoDraw = True
+341.8604 	EXP 	WebsiteImg: autoDraw = False
+343.9955 	DATA 	Keypress: n
+343.9958 	DATA 	RatingScale RatingBlau: (key single-click) rating=4
+343.9959 	DATA 	RatingScale RatingBlau: rating RT=2.218
+343.9959 	DATA 	RatingScale RatingBlau: history=[(3.0, 0.0), (4, 2.218)]
+344.0270 	EXP 	WebsiteImg: autoDraw = False
+344.0270 	EXP 	Frage: autoDraw = False
+344.0270 	EXP 	RatingBlau: autoDraw = False
+344.0270 	EXP 	FixationCross: autoDraw = True
+348.2612 	EXP 	New trial (rep=0, index=36): OrderedDict([('marker', 20), ('half', 'VI'), ('image', 'Stimuli/VI_soymar.ia.png'), ('question', 'The shown influencer is a human.'), ('construct', 'human')])
+348.4231 	EXP 	RatingScale RatingBlau: reset()
+348.5104 	EXP 	FixationCross: autoDraw = False
+348.5104 	EXP 	FixationCross: autoDraw = False
+348.5104 	EXP 	WebsiteImg: image = 'Stimuli/VI_soymar.ia.png'
+348.5104 	EXP 	Frage: text = 'The shown influencer is a human.'
+348.5104 	EXP 	WebsiteImg: autoDraw = True
+350.4270 	EXP 	Frage: autoDraw = True
+350.4438 	EXP 	RatingBlau: autoDraw = True
+350.5103 	EXP 	WebsiteImg: autoDraw = False
+352.1799 	DATA 	Keypress: c
+352.1958 	DATA 	RatingScale RatingBlau: (key single-click) rating=1
+352.1958 	DATA 	RatingScale RatingBlau: rating RT=1.769
+352.1959 	DATA 	RatingScale RatingBlau: history=[(3.0, 0.0), (1, 1.768)]
+352.2270 	EXP 	WebsiteImg: autoDraw = False
+352.2270 	EXP 	Frage: autoDraw = False
+352.2270 	EXP 	RatingBlau: autoDraw = False
+352.2270 	EXP 	FixationCross: autoDraw = True
+355.7111 	EXP 	New trial (rep=0, index=37): OrderedDict([('marker', 9), ('half', 'HI'), ('image', 'Stimuli/HI_simoneses.png'), ('question', 'The shown influencer is trustworthy.'), ('construct', 'trust')])
+355.7897 	EXP 	RatingScale RatingBlau: reset()
+355.8771 	EXP 	FixationCross: autoDraw = False
+355.8771 	EXP 	FixationCross: autoDraw = False
+355.8771 	EXP 	WebsiteImg: image = 'Stimuli/HI_simoneses.png'
+355.8771 	EXP 	Frage: text = 'The shown influencer is trustworthy.'
+355.8771 	EXP 	WebsiteImg: autoDraw = True
+357.7937 	EXP 	Frage: autoDraw = True
+357.8103 	EXP 	RatingBlau: autoDraw = True
+357.8770 	EXP 	WebsiteImg: autoDraw = False
+359.7773 	DATA 	Keypress: m
+359.7792 	DATA 	RatingScale RatingBlau: (key single-click) rating=5
+359.7792 	DATA 	RatingScale RatingBlau: rating RT=1.985
+359.7792 	DATA 	RatingScale RatingBlau: history=[(3.0, 0.0), (5, 1.985)]
+359.8103 	EXP 	WebsiteImg: autoDraw = False
+359.8103 	EXP 	Frage: autoDraw = False
+359.8103 	EXP 	RatingBlau: autoDraw = False
+359.8103 	EXP 	FixationCross: autoDraw = True
+363.7945 	EXP 	New trial (rep=0, index=38): OrderedDict([('marker', 14), ('half', 'VI'), ('image', 'Stimuli/VI_leyalovenature.png'), ('question', 'I perceived the influencer as eerie.'), ('construct', 'uncanny')])
+363.8744 	EXP 	RatingScale RatingBlau: reset()
+363.9603 	EXP 	FixationCross: autoDraw = False
+363.9603 	EXP 	FixationCross: autoDraw = False
+363.9603 	EXP 	WebsiteImg: image = 'Stimuli/VI_leyalovenature.png'
+363.9603 	EXP 	Frage: text = 'I perceived the influencer as eerie.'
+363.9603 	EXP 	WebsiteImg: autoDraw = True
+365.8768 	EXP 	Frage: autoDraw = True
+365.8935 	EXP 	RatingBlau: autoDraw = True
+365.9602 	EXP 	WebsiteImg: autoDraw = False
+367.7962 	DATA 	Keypress: m
+367.8125 	DATA 	RatingScale RatingBlau: (key single-click) rating=5
+367.8125 	DATA 	RatingScale RatingBlau: rating RT=1.935
+367.8125 	DATA 	RatingScale RatingBlau: history=[(3.0, 0.0), (5, 1.935)]
+367.8436 	EXP 	WebsiteImg: autoDraw = False
+367.8436 	EXP 	Frage: autoDraw = False
+367.8436 	EXP 	RatingBlau: autoDraw = False
+367.8436 	EXP 	FixationCross: autoDraw = True
+371.3281 	EXP 	New trial (rep=0, index=39): OrderedDict([('marker', 12), ('half', 'VI'), ('image', 'Stimuli/VI_iamxalara.png'), ('question', 'I would follow brand recommendations from the shown influencer.'), ('construct', 'use')])
+371.4188 	EXP 	RatingScale RatingBlau: reset()
+371.5103 	EXP 	FixationCross: autoDraw = False
+371.5103 	EXP 	FixationCross: autoDraw = False
+371.5103 	EXP 	WebsiteImg: image = 'Stimuli/VI_iamxalara.png'
+371.5103 	EXP 	Frage: text = 'I would follow brand recommendations from the shown influencer.'
+371.5103 	EXP 	WebsiteImg: autoDraw = True
+373.4102 	EXP 	Frage: autoDraw = True
+373.4270 	EXP 	RatingBlau: autoDraw = True
+373.5102 	EXP 	WebsiteImg: autoDraw = False
+376.2104 	DATA 	Keypress: c
+376.2124 	DATA 	RatingScale RatingBlau: (key single-click) rating=1
+376.2124 	DATA 	RatingScale RatingBlau: rating RT=2.802
+376.2124 	DATA 	RatingScale RatingBlau: history=[(3.0, 0.0), (1, 2.802)]
+376.2438 	EXP 	WebsiteImg: autoDraw = False
+376.2438 	EXP 	Frage: autoDraw = False
+376.2438 	EXP 	RatingBlau: autoDraw = False
+376.2438 	EXP 	FixationCross: autoDraw = True
+380.2277 	EXP 	New trial (rep=0, index=40): OrderedDict([('marker', 6), ('half', 'HI'), ('image', 'Stimuli/HI_jihye.png'), ('question', 'The shown influencer is trustworthy.'), ('construct', 'trust')])
+380.3072 	EXP 	RatingScale RatingBlau: reset()
+380.3936 	EXP 	FixationCross: autoDraw = False
+380.3936 	EXP 	FixationCross: autoDraw = False
+380.3936 	EXP 	WebsiteImg: image = 'Stimuli/HI_jihye.png'
+380.3936 	EXP 	Frage: text = 'The shown influencer is trustworthy.'
+380.3936 	EXP 	WebsiteImg: autoDraw = True
+382.3102 	EXP 	Frage: autoDraw = True
+382.3269 	EXP 	RatingBlau: autoDraw = True
+382.3936 	EXP 	WebsiteImg: autoDraw = False
+384.0106 	DATA 	Keypress: m
+384.0125 	DATA 	RatingScale RatingBlau: (key single-click) rating=5
+384.0125 	DATA 	RatingScale RatingBlau: rating RT=1.702
+384.0125 	DATA 	RatingScale RatingBlau: history=[(3.0, 0.0), (5, 1.702)]
+384.0437 	EXP 	WebsiteImg: autoDraw = False
+384.0437 	EXP 	Frage: autoDraw = False
+384.0437 	EXP 	RatingBlau: autoDraw = False
+384.0437 	EXP 	FixationCross: autoDraw = True
+388.0277 	EXP 	New trial (rep=0, index=41): OrderedDict([('marker', 13), ('half', 'VI'), ('image', 'Stimuli/VI_immagram.png'), ('question', 'I would follow brand recommendations from the shown influencer.'), ('construct', 'use')])
+388.1181 	EXP 	RatingScale RatingBlau: reset()
+388.1933 	EXP 	FixationCross: autoDraw = False
+388.1933 	EXP 	FixationCross: autoDraw = False
+388.1933 	EXP 	WebsiteImg: image = 'Stimuli/VI_immagram.png'
+388.1933 	EXP 	Frage: text = 'I would follow brand recommendations from the shown influencer.'
+388.1933 	EXP 	WebsiteImg: autoDraw = True
+390.1102 	EXP 	Frage: autoDraw = True
+390.1268 	EXP 	RatingBlau: autoDraw = True
+390.1933 	EXP 	WebsiteImg: autoDraw = False
+392.2604 	DATA 	Keypress: c
+392.2624 	DATA 	RatingScale RatingBlau: (key single-click) rating=1
+392.2624 	DATA 	RatingScale RatingBlau: rating RT=2.152
+392.2624 	DATA 	RatingScale RatingBlau: history=[(3.0, 0.0), (1, 2.152)]
+392.2932 	EXP 	WebsiteImg: autoDraw = False
+392.2932 	EXP 	Frage: autoDraw = False
+392.2932 	EXP 	RatingBlau: autoDraw = False
+392.2932 	EXP 	FixationCross: autoDraw = True
+395.7775 	EXP 	New trial (rep=0, index=42): OrderedDict([('marker', 15), ('half', 'VI'), ('image', 'Stimuli/VI_lilmiquela.png'), ('question', 'The shown influencer is trustworthy.'), ('construct', 'trust')])
+395.8509 	EXP 	RatingScale RatingBlau: reset()
+395.9433 	EXP 	FixationCross: autoDraw = False
+395.9433 	EXP 	FixationCross: autoDraw = False
+395.9433 	EXP 	WebsiteImg: image = 'Stimuli/VI_lilmiquela.png'
+395.9433 	EXP 	Frage: text = 'The shown influencer is trustworthy.'
+395.9433 	EXP 	WebsiteImg: autoDraw = True
+397.8433 	EXP 	Frage: autoDraw = True
+397.8602 	EXP 	RatingBlau: autoDraw = True
+397.9433 	EXP 	WebsiteImg: autoDraw = False
+399.8606 	DATA 	Keypress: c
+399.8625 	DATA 	RatingScale RatingBlau: (key single-click) rating=1
+399.8626 	DATA 	RatingScale RatingBlau: rating RT=2.019
+399.8626 	DATA 	RatingScale RatingBlau: history=[(3.0, 0.0), (1, 2.019)]
+399.8933 	EXP 	WebsiteImg: autoDraw = False
+399.8933 	EXP 	Frage: autoDraw = False
+399.8933 	EXP 	RatingBlau: autoDraw = False
+399.8933 	EXP 	FixationCross: autoDraw = True
+403.8777 	EXP 	New trial (rep=0, index=43): OrderedDict([('marker', 3), ('half', 'HI'), ('image', 'Stimuli/HI_emilycanham.png'), ('question', 'The shown influencer is trustworthy.'), ('construct', 'trust')])
+403.9363 	EXP 	RatingScale RatingBlau: reset()
+403.9603 	EXP 	FixationCross: autoDraw = False
+403.9603 	EXP 	FixationCross: autoDraw = False
+403.9603 	EXP 	WebsiteImg: image = 'Stimuli/HI_emilycanham.png'
+403.9603 	EXP 	Frage: text = 'The shown influencer is trustworthy.'
+403.9603 	EXP 	WebsiteImg: autoDraw = True
+405.9435 	EXP 	Frage: autoDraw = True
+405.9603 	EXP 	WebsiteImg: autoDraw = False
+405.9603 	EXP 	RatingBlau: autoDraw = True
+408.1772 	DATA 	Keypress: c
+408.1792 	DATA 	RatingScale RatingBlau: (key single-click) rating=1
+408.1793 	DATA 	RatingScale RatingBlau: rating RT=2.235
+408.1793 	DATA 	RatingScale RatingBlau: history=[(3.0, 0.0), (1, 2.235)]
+408.2101 	EXP 	WebsiteImg: autoDraw = False
+408.2101 	EXP 	Frage: autoDraw = False
+408.2101 	EXP 	RatingBlau: autoDraw = False
+408.2101 	EXP 	FixationCross: autoDraw = True
+412.1940 	EXP 	New trial (rep=0, index=44): OrderedDict([('marker', 4), ('half', 'HI'), ('image', 'Stimuli/HI_flaviapavanelli.png'), ('question', 'I would follow brand recommendations from the shown influencer.'), ('construct', 'use')])
+412.2812 	EXP 	RatingScale RatingBlau: reset()
+412.3602 	EXP 	FixationCross: autoDraw = False
+412.3602 	EXP 	FixationCross: autoDraw = False
+412.3602 	EXP 	WebsiteImg: image = 'Stimuli/HI_flaviapavanelli.png'
+412.3602 	EXP 	Frage: text = 'I would follow brand recommendations from the shown influencer.'
+412.3602 	EXP 	WebsiteImg: autoDraw = True
+414.2768 	EXP 	Frage: autoDraw = True
+414.2933 	EXP 	RatingBlau: autoDraw = True
+414.3603 	EXP 	WebsiteImg: autoDraw = False
+417.4440 	DATA 	Keypress: v
+417.4478 	DATA 	RatingScale RatingBlau: (key single-click) rating=2
+417.4479 	DATA 	RatingScale RatingBlau: rating RT=3.171
+417.4479 	DATA 	RatingScale RatingBlau: history=[(3.0, 0.0), (2, 3.171)]
+417.4768 	EXP 	WebsiteImg: autoDraw = False
+417.4768 	EXP 	Frage: autoDraw = False
+417.4768 	EXP 	RatingBlau: autoDraw = False
+417.4768 	EXP 	FixationCross: autoDraw = True
+421.4612 	EXP 	New trial (rep=0, index=45): OrderedDict([('marker', 11), ('half', 'VI'), ('image', 'Stimuli/VI_bermudaisbae.png'), ('question', 'I perceived the influencer as eerie.'), ('construct', 'uncanny')])
+421.5434 	EXP 	RatingScale RatingBlau: reset()
+421.6269 	EXP 	FixationCross: autoDraw = False
+421.6269 	EXP 	FixationCross: autoDraw = False
+421.6269 	EXP 	WebsiteImg: image = 'Stimuli/VI_bermudaisbae.png'
+421.6269 	EXP 	Frage: text = 'I perceived the influencer as eerie.'
+421.6269 	EXP 	WebsiteImg: autoDraw = True
+423.5435 	EXP 	Frage: autoDraw = True
+423.5601 	EXP 	RatingBlau: autoDraw = True
+423.6264 	EXP 	WebsiteImg: autoDraw = False
+425.5105 	DATA 	Keypress: m
+425.5128 	DATA 	RatingScale RatingBlau: (key single-click) rating=5
+425.5128 	DATA 	RatingScale RatingBlau: rating RT=1.969
+425.5128 	DATA 	RatingScale RatingBlau: history=[(3.0, 0.0), (5, 1.969)]
+425.5433 	EXP 	WebsiteImg: autoDraw = False
+425.5433 	EXP 	Frage: autoDraw = False
+425.5433 	EXP 	RatingBlau: autoDraw = False
+425.5433 	EXP 	FixationCross: autoDraw = True
+429.0274 	EXP 	New trial (rep=0, index=46): OrderedDict([('marker', 2), ('half', 'HI'), ('image', 'Stimuli/HI_chiaraferragni.png'), ('question', 'The shown influencer is trustworthy.'), ('construct', 'trust')])
+429.1032 	EXP 	RatingScale RatingBlau: reset()
+429.1933 	EXP 	FixationCross: autoDraw = False
+429.1933 	EXP 	FixationCross: autoDraw = False
+429.1933 	EXP 	WebsiteImg: image = 'Stimuli/HI_chiaraferragni.png'
+429.1933 	EXP 	Frage: text = 'The shown influencer is trustworthy.'
+429.1933 	EXP 	WebsiteImg: autoDraw = True
+431.1101 	EXP 	Frage: autoDraw = True
+431.1267 	EXP 	RatingBlau: autoDraw = True
+431.1934 	EXP 	WebsiteImg: autoDraw = False
+434.7605 	DATA 	Keypress: v
+434.7628 	DATA 	RatingScale RatingBlau: (key single-click) rating=2
+434.7628 	DATA 	RatingScale RatingBlau: rating RT=3.652
+434.7628 	DATA 	RatingScale RatingBlau: history=[(3.0, 0.0), (2, 3.652)]
+434.7936 	EXP 	WebsiteImg: autoDraw = False
+434.7936 	EXP 	Frage: autoDraw = False
+434.7936 	EXP 	RatingBlau: autoDraw = False
+434.7936 	EXP 	FixationCross: autoDraw = True
+438.2774 	EXP 	New trial (rep=0, index=47): OrderedDict([('marker', 6), ('half', 'HI'), ('image', 'Stimuli/HI_jihye.png'), ('question', 'I perceived the influencer as eerie.'), ('construct', 'uncanny')])
+438.3534 	EXP 	RatingScale RatingBlau: reset()
+438.3766 	EXP 	FixationCross: autoDraw = False
+438.3766 	EXP 	FixationCross: autoDraw = False
+438.3766 	EXP 	WebsiteImg: image = 'Stimuli/HI_jihye.png'
+438.3766 	EXP 	Frage: text = 'I perceived the influencer as eerie.'
+438.3766 	EXP 	WebsiteImg: autoDraw = True
+440.3600 	EXP 	Frage: autoDraw = True
+440.3765 	EXP 	WebsiteImg: autoDraw = False
+440.3765 	EXP 	RatingBlau: autoDraw = True
+442.6436 	DATA 	Keypress: b
+442.6455 	DATA 	RatingScale RatingBlau: (key single-click) rating=3
+442.6456 	DATA 	RatingScale RatingBlau: rating RT=2.285
+442.6456 	DATA 	RatingScale RatingBlau: history=[(3.0, 0.0), (3, 2.285)]
+442.6768 	EXP 	WebsiteImg: autoDraw = False
+442.6768 	EXP 	Frage: autoDraw = False
+442.6768 	EXP 	RatingBlau: autoDraw = False
+442.6768 	EXP 	FixationCross: autoDraw = True
+446.4105 	EXP 	New trial (rep=0, index=48): OrderedDict([('marker', 4), ('half', 'HI'), ('image', 'Stimuli/HI_flaviapavanelli.png'), ('question', 'I perceived the influencer as eerie.'), ('construct', 'uncanny')])
+446.4702 	EXP 	RatingScale RatingBlau: reset()
+446.5433 	EXP 	FixationCross: autoDraw = False
+446.5433 	EXP 	FixationCross: autoDraw = False
+446.5433 	EXP 	WebsiteImg: image = 'Stimuli/HI_flaviapavanelli.png'
+446.5433 	EXP 	Frage: text = 'I perceived the influencer as eerie.'
+446.5433 	EXP 	WebsiteImg: autoDraw = True
+448.4766 	EXP 	Frage: autoDraw = True
+448.4934 	EXP 	RatingBlau: autoDraw = True
+448.5433 	EXP 	WebsiteImg: autoDraw = False
+451.1101 	DATA 	Keypress: b
+451.1120 	DATA 	RatingScale RatingBlau: (key single-click) rating=3
+451.1121 	DATA 	RatingScale RatingBlau: rating RT=2.635
+451.1121 	DATA 	RatingScale RatingBlau: history=[(3.0, 0.0), (3, 2.635)]
+451.1433 	EXP 	WebsiteImg: autoDraw = False
+451.1433 	EXP 	Frage: autoDraw = False
+451.1433 	EXP 	RatingBlau: autoDraw = False
+451.1433 	EXP 	FixationCross: autoDraw = True
+455.1273 	EXP 	New trial (rep=0, index=49): OrderedDict([('marker', 19), ('half', 'VI'), ('image', 'Stimuli/VI_shudu.gram.png'), ('question', 'The shown influencer is trustworthy.'), ('construct', 'trust')])
+455.1994 	EXP 	RatingScale RatingBlau: reset()
+455.2934 	EXP 	FixationCross: autoDraw = False
+455.2934 	EXP 	FixationCross: autoDraw = False
+455.2934 	EXP 	WebsiteImg: image = 'Stimuli/VI_shudu.gram.png'
+455.2934 	EXP 	Frage: text = 'The shown influencer is trustworthy.'
+455.2934 	EXP 	WebsiteImg: autoDraw = True
+457.1933 	EXP 	Frage: autoDraw = True
+457.2097 	EXP 	RatingBlau: autoDraw = True
+457.2933 	EXP 	WebsiteImg: autoDraw = False
+461.3270 	DATA 	Keypress: b
+461.3289 	DATA 	RatingScale RatingBlau: (key single-click) rating=3
+461.3289 	DATA 	RatingScale RatingBlau: rating RT=4.135
+461.3289 	DATA 	RatingScale RatingBlau: history=[(3.0, 0.0), (3, 4.135)]
+461.3598 	EXP 	WebsiteImg: autoDraw = False
+461.3598 	EXP 	Frage: autoDraw = False
+461.3598 	EXP 	RatingBlau: autoDraw = False
+461.3598 	EXP 	FixationCross: autoDraw = True
+464.8440 	EXP 	New trial (rep=0, index=50): OrderedDict([('marker', 17), ('half', 'VI'), ('image', 'Stimuli/VI_noonouri.png'), ('question', 'The shown influencer is trustworthy.'), ('construct', 'trust')])
+464.8981 	EXP 	RatingScale RatingBlau: reset()
+464.9933 	EXP 	FixationCross: autoDraw = False
+464.9933 	EXP 	FixationCross: autoDraw = False
+464.9933 	EXP 	WebsiteImg: image = 'Stimuli/VI_noonouri.png'
+464.9933 	EXP 	Frage: text = 'The shown influencer is trustworthy.'
+464.9933 	EXP 	WebsiteImg: autoDraw = True
+466.8932 	EXP 	Frage: autoDraw = True
+466.9098 	EXP 	RatingBlau: autoDraw = True
+466.9933 	EXP 	WebsiteImg: autoDraw = False
+468.9435 	DATA 	Keypress: c
+468.9454 	DATA 	RatingScale RatingBlau: (key single-click) rating=1
+468.9454 	DATA 	RatingScale RatingBlau: rating RT=2.052
+468.9454 	DATA 	RatingScale RatingBlau: history=[(3.0, 0.0), (1, 2.052)]
+468.9765 	EXP 	WebsiteImg: autoDraw = False
+468.9765 	EXP 	Frage: autoDraw = False
+468.9765 	EXP 	RatingBlau: autoDraw = False
+468.9765 	EXP 	FixationCross: autoDraw = True
+472.4611 	EXP 	New trial (rep=0, index=51): OrderedDict([('marker', 1), ('half', 'HI'), ('image', 'Stimuli/HI_adhel_bol.png'), ('question', 'I perceived the influencer as eerie.'), ('construct', 'uncanny')])
+472.5527 	EXP 	RatingScale RatingBlau: reset()
+472.5765 	EXP 	FixationCross: autoDraw = False
+472.5765 	EXP 	FixationCross: autoDraw = False
+472.5765 	EXP 	WebsiteImg: image = 'Stimuli/HI_adhel_bol.png'
+472.5765 	EXP 	Frage: text = 'I perceived the influencer as eerie.'
+472.5765 	EXP 	WebsiteImg: autoDraw = True
+474.5597 	EXP 	Frage: autoDraw = True
+474.5766 	EXP 	WebsiteImg: autoDraw = False
+474.5766 	EXP 	RatingBlau: autoDraw = True
+477.7118 	DATA 	Keypress: v
+477.7121 	DATA 	RatingScale RatingBlau: (key single-click) rating=2
+477.7121 	DATA 	RatingScale RatingBlau: rating RT=3.152
+477.7122 	DATA 	RatingScale RatingBlau: history=[(3.0, 0.0), (2, 3.152)]
+477.7431 	EXP 	WebsiteImg: autoDraw = False
+477.7431 	EXP 	Frage: autoDraw = False
+477.7431 	EXP 	RatingBlau: autoDraw = False
+477.7431 	EXP 	FixationCross: autoDraw = True
+481.9773 	EXP 	New trial (rep=0, index=52): OrderedDict([('marker', 7), ('half', 'HI'), ('image', 'Stimuli/HI_lamise.png'), ('question', 'The shown influencer is trustworthy.'), ('construct', 'trust')])
+482.0501 	EXP 	RatingScale RatingBlau: reset()
+482.1432 	EXP 	FixationCross: autoDraw = False
+482.1432 	EXP 	FixationCross: autoDraw = False
+482.1432 	EXP 	WebsiteImg: image = 'Stimuli/HI_lamise.png'
+482.1432 	EXP 	Frage: text = 'The shown influencer is trustworthy.'
+482.1432 	EXP 	WebsiteImg: autoDraw = True
+484.0432 	EXP 	Frage: autoDraw = True
+484.0597 	EXP 	RatingBlau: autoDraw = True
+484.1429 	EXP 	WebsiteImg: autoDraw = False
+487.4433 	DATA 	Keypress: n
+487.4453 	DATA 	RatingScale RatingBlau: (key single-click) rating=4
+487.4453 	DATA 	RatingScale RatingBlau: rating RT=3.402
+487.4453 	DATA 	RatingScale RatingBlau: history=[(3.0, 0.0), (4, 3.402)]
+487.4765 	EXP 	WebsiteImg: autoDraw = False
+487.4765 	EXP 	Frage: autoDraw = False
+487.4765 	EXP 	RatingBlau: autoDraw = False
+487.4765 	EXP 	FixationCross: autoDraw = True
+491.2109 	EXP 	New trial (rep=0, index=53): OrderedDict([('marker', 16), ('half', 'VI'), ('image', 'Stimuli/VI_magazineluiza.png'), ('question', 'I perceived the influencer as eerie.'), ('construct', 'uncanny')])
+491.2976 	EXP 	RatingScale RatingBlau: reset()
+491.3767 	EXP 	FixationCross: autoDraw = False
+491.3767 	EXP 	FixationCross: autoDraw = False
+491.3767 	EXP 	WebsiteImg: image = 'Stimuli/VI_magazineluiza.png'
+491.3767 	EXP 	Frage: text = 'I perceived the influencer as eerie.'
+491.3767 	EXP 	WebsiteImg: autoDraw = True
+493.2930 	EXP 	Frage: autoDraw = True
+493.3098 	EXP 	RatingBlau: autoDraw = True
+493.3764 	EXP 	WebsiteImg: autoDraw = False
+495.2933 	DATA 	Keypress: m
+495.2952 	DATA 	RatingScale RatingBlau: (key single-click) rating=5
+495.2952 	DATA 	RatingScale RatingBlau: rating RT=2.002
+495.2952 	DATA 	RatingScale RatingBlau: history=[(3.0, 0.0), (5, 2.002)]
+495.3265 	EXP 	WebsiteImg: autoDraw = False
+495.3265 	EXP 	Frage: autoDraw = False
+495.3265 	EXP 	RatingBlau: autoDraw = False
+495.3265 	EXP 	FixationCross: autoDraw = True
+498.8109 	EXP 	New trial (rep=0, index=54): OrderedDict([('marker', 7), ('half', 'HI'), ('image', 'Stimuli/HI_lamise.png'), ('question', 'I would follow brand recommendations from the shown influencer.'), ('construct', 'use')])
+498.9051 	EXP 	RatingScale RatingBlau: reset()
+498.9930 	EXP 	FixationCross: autoDraw = False
+498.9930 	EXP 	FixationCross: autoDraw = False
+498.9930 	EXP 	WebsiteImg: image = 'Stimuli/HI_lamise.png'
+498.9930 	EXP 	Frage: text = 'I would follow brand recommendations from the shown influencer.'
+498.9930 	EXP 	WebsiteImg: autoDraw = True
+500.9102 	EXP 	Frage: autoDraw = True
+500.9265 	EXP 	RatingBlau: autoDraw = True
+500.9930 	EXP 	WebsiteImg: autoDraw = False
+503.7433 	DATA 	Keypress: b
+503.7452 	DATA 	RatingScale RatingBlau: (key single-click) rating=3
+503.7452 	DATA 	RatingScale RatingBlau: rating RT=2.834
+503.7452 	DATA 	RatingScale RatingBlau: history=[(3.0, 0.0), (3, 2.834)]
+503.7763 	EXP 	WebsiteImg: autoDraw = False
+503.7763 	EXP 	Frage: autoDraw = False
+503.7763 	EXP 	RatingBlau: autoDraw = False
+503.7763 	EXP 	FixationCross: autoDraw = True
+508.0105 	EXP 	New trial (rep=0, index=55): OrderedDict([('marker', 3), ('half', 'HI'), ('image', 'Stimuli/HI_emilycanham.png'), ('question', 'I perceived the influencer as eerie.'), ('construct', 'uncanny')])
+508.0819 	EXP 	RatingScale RatingBlau: reset()
+508.1764 	EXP 	FixationCross: autoDraw = False
+508.1764 	EXP 	FixationCross: autoDraw = False
+508.1764 	EXP 	WebsiteImg: image = 'Stimuli/HI_emilycanham.png'
+508.1764 	EXP 	Frage: text = 'I perceived the influencer as eerie.'
+508.1764 	EXP 	WebsiteImg: autoDraw = True
+510.0765 	EXP 	Frage: autoDraw = True
+510.0930 	EXP 	RatingBlau: autoDraw = True
+510.1764 	EXP 	WebsiteImg: autoDraw = False
+513.0933 	DATA 	Keypress: b
+513.0951 	DATA 	RatingScale RatingBlau: (key single-click) rating=3
+513.0951 	DATA 	RatingScale RatingBlau: rating RT=3.018
+513.0952 	DATA 	RatingScale RatingBlau: history=[(3.0, 0.0), (3, 3.018)]
+513.1264 	EXP 	WebsiteImg: autoDraw = False
+513.1264 	EXP 	Frage: autoDraw = False
+513.1264 	EXP 	RatingBlau: autoDraw = False
+513.1264 	EXP 	FixationCross: autoDraw = True
+517.3605 	EXP 	New trial (rep=0, index=56): OrderedDict([('marker', 13), ('half', 'VI'), ('image', 'Stimuli/VI_immagram.png'), ('question', 'I perceived the influencer as eerie.'), ('construct', 'uncanny')])
+517.4162 	EXP 	RatingScale RatingBlau: reset()
+517.5099 	EXP 	FixationCross: autoDraw = False
+517.5099 	EXP 	FixationCross: autoDraw = False
+517.5099 	EXP 	WebsiteImg: image = 'Stimuli/VI_immagram.png'
+517.5099 	EXP 	Frage: text = 'I perceived the influencer as eerie.'
+517.5099 	EXP 	WebsiteImg: autoDraw = True
+519.4097 	EXP 	Frage: autoDraw = True
+519.4262 	EXP 	RatingBlau: autoDraw = True
+519.5098 	EXP 	WebsiteImg: autoDraw = False
+521.4266 	DATA 	Keypress: m
+521.4285 	DATA 	RatingScale RatingBlau: (key single-click) rating=5
+521.4286 	DATA 	RatingScale RatingBlau: rating RT=2.018
+521.4286 	DATA 	RatingScale RatingBlau: history=[(3.0, 0.0), (5, 2.018)]
+521.4597 	EXP 	WebsiteImg: autoDraw = False
+521.4597 	EXP 	Frage: autoDraw = False
+521.4597 	EXP 	RatingBlau: autoDraw = False
+521.4597 	EXP 	FixationCross: autoDraw = True
+525.1937 	EXP 	New trial (rep=0, index=57): OrderedDict([('marker', 19), ('half', 'VI'), ('image', 'Stimuli/VI_shudu.gram.png'), ('question', 'I would follow brand recommendations from the shown influencer.'), ('construct', 'use')])
+525.2764 	EXP 	RatingScale RatingBlau: reset()
+525.3599 	EXP 	FixationCross: autoDraw = False
+525.3599 	EXP 	FixationCross: autoDraw = False
+525.3599 	EXP 	WebsiteImg: image = 'Stimuli/VI_shudu.gram.png'
+525.3599 	EXP 	Frage: text = 'I would follow brand recommendations from the shown influencer.'
+525.3599 	EXP 	WebsiteImg: autoDraw = True
+527.2596 	EXP 	Frage: autoDraw = True
+527.2761 	EXP 	RatingBlau: autoDraw = True
+527.3596 	EXP 	WebsiteImg: autoDraw = False
+532.3119 	DATA 	Keypress: c
+532.3280 	DATA 	RatingScale RatingBlau: (key single-click) rating=1
+532.3281 	DATA 	RatingScale RatingBlau: rating RT=5.068
+532.3281 	DATA 	RatingScale RatingBlau: history=[(3.0, 0.0), (1, 5.068)]
+532.3597 	EXP 	WebsiteImg: autoDraw = False
+532.3597 	EXP 	Frage: autoDraw = False
+532.3597 	EXP 	RatingBlau: autoDraw = False
+532.3597 	EXP 	FixationCross: autoDraw = True
+536.3437 	EXP 	New trial (rep=0, index=58): OrderedDict([('marker', 5), ('half', 'HI'), ('image', 'Stimuli/HI_imjennim.png'), ('question', 'I would follow brand recommendations from the shown influencer.'), ('construct', 'use')])
+536.3995 	EXP 	RatingScale RatingBlau: reset()
+536.4929 	EXP 	FixationCross: autoDraw = False
+536.4929 	EXP 	FixationCross: autoDraw = False
+536.4929 	EXP 	WebsiteImg: image = 'Stimuli/HI_imjennim.png'
+536.4929 	EXP 	Frage: text = 'I would follow brand recommendations from the shown influencer.'
+536.4929 	EXP 	WebsiteImg: autoDraw = True
+538.3929 	EXP 	Frage: autoDraw = True
+538.4095 	EXP 	RatingBlau: autoDraw = True
+538.4929 	EXP 	WebsiteImg: autoDraw = False
+545.5599 	DATA 	Keypress: c
+545.5617 	DATA 	RatingScale RatingBlau: (key single-click) rating=1
+545.5618 	DATA 	RatingScale RatingBlau: rating RT=7.168
+545.5618 	DATA 	RatingScale RatingBlau: history=[(3.0, 0.0), (1, 7.168)]
+545.5928 	EXP 	WebsiteImg: autoDraw = False
+545.5928 	EXP 	Frage: autoDraw = False
+545.5928 	EXP 	RatingBlau: autoDraw = False
+545.5928 	EXP 	FixationCross: autoDraw = True
+549.8270 	EXP 	New trial (rep=0, index=59): OrderedDict([('marker', 4), ('half', 'HI'), ('image', 'Stimuli/HI_flaviapavanelli.png'), ('question', 'The shown influencer is a human.'), ('construct', 'human')])
+549.8969 	EXP 	RatingScale RatingBlau: reset()
+549.9930 	EXP 	FixationCross: autoDraw = False
+549.9930 	EXP 	FixationCross: autoDraw = False
+549.9930 	EXP 	WebsiteImg: image = 'Stimuli/HI_flaviapavanelli.png'
+549.9930 	EXP 	Frage: text = 'The shown influencer is a human.'
+549.9930 	EXP 	WebsiteImg: autoDraw = True
+551.8928 	EXP 	Frage: autoDraw = True
+551.9096 	EXP 	RatingBlau: autoDraw = True
+551.9929 	EXP 	WebsiteImg: autoDraw = False
+556.4096 	DATA 	Keypress: m
+556.4115 	DATA 	RatingScale RatingBlau: (key single-click) rating=5
+556.4115 	DATA 	RatingScale RatingBlau: rating RT=4.518
+556.4116 	DATA 	RatingScale RatingBlau: history=[(3.0, 0.0), (5, 4.518)]
+556.4428 	EXP 	WebsiteImg: autoDraw = False
+556.4428 	EXP 	Frage: autoDraw = False
+556.4428 	EXP 	RatingBlau: autoDraw = False
+556.4428 	EXP 	FixationCross: autoDraw = True
+560.1771 	EXP 	New trial (rep=0, index=60): OrderedDict([('marker', 1), ('half', 'HI'), ('image', 'Stimuli/HI_adhel_bol.png'), ('question', 'The shown influencer is trustworthy.'), ('construct', 'trust')])
+560.2483 	EXP 	RatingScale RatingBlau: reset()
+560.3428 	EXP 	FixationCross: autoDraw = False
+560.3428 	EXP 	FixationCross: autoDraw = False
+560.3428 	EXP 	WebsiteImg: image = 'Stimuli/HI_adhel_bol.png'
+560.3428 	EXP 	Frage: text = 'The shown influencer is trustworthy.'
+560.3428 	EXP 	WebsiteImg: autoDraw = True
+562.2428 	EXP 	Frage: autoDraw = True
+562.2593 	EXP 	RatingBlau: autoDraw = True
+562.3429 	EXP 	WebsiteImg: autoDraw = False
+564.9765 	DATA 	Keypress: b
+564.9783 	DATA 	RatingScale RatingBlau: (key single-click) rating=3
+564.9783 	DATA 	RatingScale RatingBlau: rating RT=2.735
+564.9784 	DATA 	RatingScale RatingBlau: history=[(3.0, 0.0), (3, 2.735)]
+565.0093 	EXP 	WebsiteImg: autoDraw = False
+565.0093 	EXP 	Frage: autoDraw = False
+565.0093 	EXP 	RatingBlau: autoDraw = False
+565.0093 	EXP 	FixationCross: autoDraw = True
+568.7436 	EXP 	New trial (rep=0, index=61): OrderedDict([('marker', 5), ('half', 'HI'), ('image', 'Stimuli/HI_imjennim.png'), ('question', 'The shown influencer is a human.'), ('construct', 'human')])
+568.8141 	EXP 	RatingScale RatingBlau: reset()
+568.9095 	EXP 	FixationCross: autoDraw = False
+568.9095 	EXP 	FixationCross: autoDraw = False
+568.9095 	EXP 	WebsiteImg: image = 'Stimuli/HI_imjennim.png'
+568.9095 	EXP 	Frage: text = 'The shown influencer is a human.'
+568.9095 	EXP 	WebsiteImg: autoDraw = True
+570.8093 	EXP 	Frage: autoDraw = True
+570.8261 	EXP 	RatingBlau: autoDraw = True
+570.9093 	EXP 	WebsiteImg: autoDraw = False
+573.9264 	DATA 	Keypress: n
+573.9283 	DATA 	RatingScale RatingBlau: (key single-click) rating=4
+573.9283 	DATA 	RatingScale RatingBlau: rating RT=3.119
+573.9283 	DATA 	RatingScale RatingBlau: history=[(3.0, 0.0), (4, 3.118)]
+573.9593 	EXP 	WebsiteImg: autoDraw = False
+573.9593 	EXP 	Frage: autoDraw = False
+573.9593 	EXP 	RatingBlau: autoDraw = False
+573.9593 	EXP 	FixationCross: autoDraw = True
+577.4436 	EXP 	New trial (rep=0, index=62): OrderedDict([('marker', 19), ('half', 'VI'), ('image', 'Stimuli/VI_shudu.gram.png'), ('question', 'The shown influencer is a human.'), ('construct', 'human')])
+577.4980 	EXP 	RatingScale RatingBlau: reset()
+577.5930 	EXP 	FixationCross: autoDraw = False
+577.5930 	EXP 	FixationCross: autoDraw = False
+577.5930 	EXP 	WebsiteImg: image = 'Stimuli/VI_shudu.gram.png'
+577.5930 	EXP 	Frage: text = 'The shown influencer is a human.'
+577.5930 	EXP 	WebsiteImg: autoDraw = True
+579.4928 	EXP 	Frage: autoDraw = True
+579.5094 	EXP 	RatingBlau: autoDraw = True
+579.5928 	EXP 	WebsiteImg: autoDraw = False
+582.0933 	DATA 	Keypress: n
+582.0952 	DATA 	RatingScale RatingBlau: (key single-click) rating=4
+582.0953 	DATA 	RatingScale RatingBlau: rating RT=2.602
+582.0953 	DATA 	RatingScale RatingBlau: history=[(3.0, 0.0), (4, 2.602)]
+582.1261 	EXP 	WebsiteImg: autoDraw = False
+582.1261 	EXP 	Frage: autoDraw = False
+582.1261 	EXP 	RatingBlau: autoDraw = False
+582.1261 	EXP 	FixationCross: autoDraw = True
+586.1102 	EXP 	New trial (rep=0, index=63): OrderedDict([('marker', 20), ('half', 'VI'), ('image', 'Stimuli/VI_soymar.ia.png'), ('question', 'I perceived the influencer as eerie.'), ('construct', 'uncanny')])
+586.1838 	EXP 	RatingScale RatingBlau: reset()
+586.2762 	EXP 	FixationCross: autoDraw = False
+586.2762 	EXP 	FixationCross: autoDraw = False
+586.2762 	EXP 	WebsiteImg: image = 'Stimuli/VI_soymar.ia.png'
+586.2762 	EXP 	Frage: text = 'I perceived the influencer as eerie.'
+586.2762 	EXP 	WebsiteImg: autoDraw = True
+588.1761 	EXP 	Frage: autoDraw = True
+588.1925 	EXP 	RatingBlau: autoDraw = True
+588.2762 	EXP 	WebsiteImg: autoDraw = False
+590.6097 	DATA 	Keypress: m
+590.6116 	DATA 	RatingScale RatingBlau: (key single-click) rating=5
+590.6116 	DATA 	RatingScale RatingBlau: rating RT=2.435
+590.6116 	DATA 	RatingScale RatingBlau: history=[(3.0, 0.0), (5, 2.435)]
+590.6425 	EXP 	WebsiteImg: autoDraw = False
+590.6425 	EXP 	Frage: autoDraw = False
+590.6425 	EXP 	RatingBlau: autoDraw = False
+590.6425 	EXP 	FixationCross: autoDraw = True
+594.8768 	EXP 	New trial (rep=0, index=64): OrderedDict([('marker', 16), ('half', 'VI'), ('image', 'Stimuli/VI_magazineluiza.png'), ('question', 'The shown influencer is trustworthy.'), ('construct', 'trust')])
+594.9465 	EXP 	RatingScale RatingBlau: reset()
+595.0432 	EXP 	FixationCross: autoDraw = False
+595.0432 	EXP 	FixationCross: autoDraw = False
+595.0432 	EXP 	WebsiteImg: image = 'Stimuli/VI_magazineluiza.png'
+595.0432 	EXP 	Frage: text = 'The shown influencer is trustworthy.'
+595.0432 	EXP 	WebsiteImg: autoDraw = True
+596.9425 	EXP 	Frage: autoDraw = True
+596.9593 	EXP 	RatingBlau: autoDraw = True
+597.0425 	EXP 	WebsiteImg: autoDraw = False
+599.2598 	DATA 	Keypress: c
+599.2617 	DATA 	RatingScale RatingBlau: (key single-click) rating=1
+599.2617 	DATA 	RatingScale RatingBlau: rating RT=2.319
+599.2617 	DATA 	RatingScale RatingBlau: history=[(3.0, 0.0), (1, 2.319)]
+599.2925 	EXP 	WebsiteImg: autoDraw = False
+599.2925 	EXP 	Frage: autoDraw = False
+599.2925 	EXP 	RatingBlau: autoDraw = False
+599.2925 	EXP 	FixationCross: autoDraw = True
+602.7768 	EXP 	New trial (rep=0, index=65): OrderedDict([('marker', 1), ('half', 'HI'), ('image', 'Stimuli/HI_adhel_bol.png'), ('question', 'I would follow brand recommendations from the shown influencer.'), ('construct', 'use')])
+602.8612 	EXP 	RatingScale RatingBlau: reset()
+602.9424 	EXP 	FixationCross: autoDraw = False
+602.9424 	EXP 	FixationCross: autoDraw = False
+602.9424 	EXP 	WebsiteImg: image = 'Stimuli/HI_adhel_bol.png'
+602.9424 	EXP 	Frage: text = 'I would follow brand recommendations from the shown influencer.'
+602.9424 	EXP 	WebsiteImg: autoDraw = True
+604.8593 	EXP 	Frage: autoDraw = True
+604.8760 	EXP 	RatingBlau: autoDraw = True
+604.9428 	EXP 	WebsiteImg: autoDraw = False
+608.9263 	DATA 	Keypress: v
+608.9284 	DATA 	RatingScale RatingBlau: (key single-click) rating=2
+608.9284 	DATA 	RatingScale RatingBlau: rating RT=4.069
+608.9284 	DATA 	RatingScale RatingBlau: history=[(3.0, 0.0), (2, 4.069)]
+608.9593 	EXP 	WebsiteImg: autoDraw = False
+608.9593 	EXP 	Frage: autoDraw = False
+608.9593 	EXP 	RatingBlau: autoDraw = False
+608.9593 	EXP 	FixationCross: autoDraw = True
+612.4433 	EXP 	New trial (rep=0, index=66): OrderedDict([('marker', 12), ('half', 'VI'), ('image', 'Stimuli/VI_iamxalara.png'), ('question', 'I perceived the influencer as eerie.'), ('construct', 'uncanny')])
+612.5201 	EXP 	RatingScale RatingBlau: reset()
+612.6094 	EXP 	FixationCross: autoDraw = False
+612.6094 	EXP 	FixationCross: autoDraw = False
+612.6094 	EXP 	WebsiteImg: image = 'Stimuli/VI_iamxalara.png'
+612.6094 	EXP 	Frage: text = 'I perceived the influencer as eerie.'
+612.6094 	EXP 	WebsiteImg: autoDraw = True
+614.5257 	EXP 	Frage: autoDraw = True
+614.5425 	EXP 	RatingBlau: autoDraw = True
+614.6093 	EXP 	WebsiteImg: autoDraw = False
+616.2095 	DATA 	Keypress: m
+616.2114 	DATA 	RatingScale RatingBlau: (key single-click) rating=5
+616.2114 	DATA 	RatingScale RatingBlau: rating RT=1.685
+616.2114 	DATA 	RatingScale RatingBlau: history=[(3.0, 0.0), (5, 1.685)]
+616.2426 	EXP 	WebsiteImg: autoDraw = False
+616.2426 	EXP 	Frage: autoDraw = False
+616.2426 	EXP 	RatingBlau: autoDraw = False
+616.2426 	EXP 	FixationCross: autoDraw = True
+620.2267 	EXP 	New trial (rep=0, index=67): OrderedDict([('marker', 17), ('half', 'VI'), ('image', 'Stimuli/VI_noonouri.png'), ('question', 'The shown influencer is a human.'), ('construct', 'human')])
+620.2908 	EXP 	RatingScale RatingBlau: reset()
+620.3759 	EXP 	FixationCross: autoDraw = False
+620.3759 	EXP 	FixationCross: autoDraw = False
+620.3759 	EXP 	WebsiteImg: image = 'Stimuli/VI_noonouri.png'
+620.3759 	EXP 	Frage: text = 'The shown influencer is a human.'
+620.3759 	EXP 	WebsiteImg: autoDraw = True
+622.2926 	EXP 	Frage: autoDraw = True
+622.3093 	EXP 	RatingBlau: autoDraw = True
+622.3758 	EXP 	WebsiteImg: autoDraw = False
+624.9780 	DATA 	Keypress: c
+624.9945 	DATA 	RatingScale RatingBlau: (key single-click) rating=1
+624.9946 	DATA 	RatingScale RatingBlau: rating RT=2.701
+624.9946 	DATA 	RatingScale RatingBlau: history=[(3.0, 0.0), (1, 2.701)]
+625.0258 	EXP 	WebsiteImg: autoDraw = False
+625.0258 	EXP 	Frage: autoDraw = False
+625.0258 	EXP 	RatingBlau: autoDraw = False
+625.0258 	EXP 	FixationCross: autoDraw = True
+628.7599 	EXP 	New trial (rep=0, index=68): OrderedDict([('marker', 2), ('half', 'HI'), ('image', 'Stimuli/HI_chiaraferragni.png'), ('question', 'I would follow brand recommendations from the shown influencer.'), ('construct', 'use')])
+628.8459 	EXP 	RatingScale RatingBlau: reset()
+628.8593 	EXP 	FixationCross: autoDraw = False
+628.8593 	EXP 	FixationCross: autoDraw = False
+628.8593 	EXP 	WebsiteImg: image = 'Stimuli/HI_chiaraferragni.png'
+628.8593 	EXP 	Frage: text = 'I would follow brand recommendations from the shown influencer.'
+628.8593 	EXP 	WebsiteImg: autoDraw = True
+630.8427 	EXP 	Frage: autoDraw = True
+630.8593 	EXP 	WebsiteImg: autoDraw = False
+630.8593 	EXP 	RatingBlau: autoDraw = True
+634.1928 	DATA 	Keypress: n
+634.1947 	DATA 	RatingScale RatingBlau: (key single-click) rating=4
+634.1947 	DATA 	RatingScale RatingBlau: rating RT=3.352
+634.1947 	DATA 	RatingScale RatingBlau: history=[(3.0, 0.0), (4, 3.352)]
+634.2257 	EXP 	WebsiteImg: autoDraw = False
+634.2257 	EXP 	Frage: autoDraw = False
+634.2257 	EXP 	RatingBlau: autoDraw = False
+634.2257 	EXP 	FixationCross: autoDraw = True
+638.2100 	EXP 	New trial (rep=0, index=69): OrderedDict([('marker', 8), ('half', 'HI'), ('image', 'Stimuli/HI_rosesarerosie.png'), ('question', 'I would follow brand recommendations from the shown influencer.'), ('construct', 'use')])
+638.2645 	EXP 	RatingScale RatingBlau: reset()
+638.3593 	EXP 	FixationCross: autoDraw = False
+638.3593 	EXP 	FixationCross: autoDraw = False
+638.3593 	EXP 	WebsiteImg: image = 'Stimuli/HI_rosesarerosie.png'
+638.3593 	EXP 	Frage: text = 'I would follow brand recommendations from the shown influencer.'
+638.3593 	EXP 	WebsiteImg: autoDraw = True
+640.2593 	EXP 	Frage: autoDraw = True
+640.2758 	EXP 	RatingBlau: autoDraw = True
+640.3592 	EXP 	WebsiteImg: autoDraw = False
+642.7594 	DATA 	Keypress: c
+642.7613 	DATA 	RatingScale RatingBlau: (key single-click) rating=1
+642.7613 	DATA 	RatingScale RatingBlau: rating RT=2.502
+642.7614 	DATA 	RatingScale RatingBlau: history=[(3.0, 0.0), (1, 2.502)]
+642.7925 	EXP 	WebsiteImg: autoDraw = False
+642.7925 	EXP 	Frage: autoDraw = False
+642.7925 	EXP 	RatingBlau: autoDraw = False
+642.7925 	EXP 	FixationCross: autoDraw = True
+647.0266 	EXP 	New trial (rep=0, index=70): OrderedDict([('marker', 20), ('half', 'VI'), ('image', 'Stimuli/VI_soymar.ia.png'), ('question', 'The shown influencer is trustworthy.'), ('construct', 'trust')])
+647.0958 	EXP 	RatingScale RatingBlau: reset()
+647.1758 	EXP 	FixationCross: autoDraw = False
+647.1758 	EXP 	FixationCross: autoDraw = False
+647.1758 	EXP 	WebsiteImg: image = 'Stimuli/VI_soymar.ia.png'
+647.1758 	EXP 	Frage: text = 'The shown influencer is trustworthy.'
+647.1758 	EXP 	WebsiteImg: autoDraw = True
+649.0924 	EXP 	Frage: autoDraw = True
+649.1090 	EXP 	RatingBlau: autoDraw = True
+649.1758 	EXP 	WebsiteImg: autoDraw = False
+651.4595 	DATA 	Keypress: c
+651.4613 	DATA 	RatingScale RatingBlau: (key single-click) rating=1
+651.4613 	DATA 	RatingScale RatingBlau: rating RT=2.368
+651.4614 	DATA 	RatingScale RatingBlau: history=[(3.0, 0.0), (1, 2.368)]
+651.4924 	EXP 	WebsiteImg: autoDraw = False
+651.4924 	EXP 	Frage: autoDraw = False
+651.4924 	EXP 	RatingBlau: autoDraw = False
+651.4924 	EXP 	FixationCross: autoDraw = True
+654.9766 	EXP 	New trial (rep=0, index=71): OrderedDict([('marker', 20), ('half', 'VI'), ('image', 'Stimuli/VI_soymar.ia.png'), ('question', 'I would follow brand recommendations from the shown influencer.'), ('construct', 'use')])
+655.0693 	EXP 	RatingScale RatingBlau: reset()
+655.0924 	EXP 	FixationCross: autoDraw = False
+655.0924 	EXP 	FixationCross: autoDraw = False
+655.0924 	EXP 	WebsiteImg: image = 'Stimuli/VI_soymar.ia.png'
+655.0924 	EXP 	Frage: text = 'I would follow brand recommendations from the shown influencer.'
+655.0924 	EXP 	WebsiteImg: autoDraw = True
+657.0759 	EXP 	Frage: autoDraw = True
+657.0925 	EXP 	WebsiteImg: autoDraw = False
+657.0925 	EXP 	RatingBlau: autoDraw = True
+659.6110 	DATA 	Keypress: c
+659.6112 	DATA 	RatingScale RatingBlau: (key single-click) rating=1
+659.6113 	DATA 	RatingScale RatingBlau: rating RT=2.535
+659.6113 	DATA 	RatingScale RatingBlau: history=[(3.0, 0.0), (1, 2.535)]
+659.6424 	EXP 	WebsiteImg: autoDraw = False
+659.6424 	EXP 	Frage: autoDraw = False
+659.6424 	EXP 	RatingBlau: autoDraw = False
+659.6424 	EXP 	FixationCross: autoDraw = True
+663.3768 	EXP 	New trial (rep=0, index=72): OrderedDict([('marker', 17), ('half', 'VI'), ('image', 'Stimuli/VI_noonouri.png'), ('question', 'I would follow brand recommendations from the shown influencer.'), ('construct', 'use')])
+663.4267 	EXP 	RatingScale RatingBlau: reset()
+663.5260 	EXP 	FixationCross: autoDraw = False
+663.5260 	EXP 	FixationCross: autoDraw = False
+663.5260 	EXP 	WebsiteImg: image = 'Stimuli/VI_noonouri.png'
+663.5260 	EXP 	Frage: text = 'I would follow brand recommendations from the shown influencer.'
+663.5260 	EXP 	WebsiteImg: autoDraw = True
+665.4259 	EXP 	Frage: autoDraw = True
+665.4424 	EXP 	RatingBlau: autoDraw = True
+665.5259 	EXP 	WebsiteImg: autoDraw = False
+666.8278 	DATA 	Keypress: c
+666.8281 	DATA 	RatingScale RatingBlau: (key single-click) rating=1
+666.8281 	DATA 	RatingScale RatingBlau: rating RT=1.402
+666.8281 	DATA 	RatingScale RatingBlau: history=[(3.0, 0.0), (1, 1.402)]
+666.8590 	EXP 	WebsiteImg: autoDraw = False
+666.8590 	EXP 	Frage: autoDraw = False
+666.8590 	EXP 	RatingBlau: autoDraw = False
+666.8590 	EXP 	FixationCross: autoDraw = True
+670.5932 	EXP 	New trial (rep=0, index=73): OrderedDict([('marker', 3), ('half', 'HI'), ('image', 'Stimuli/HI_emilycanham.png'), ('question', 'I would follow brand recommendations from the shown influencer.'), ('construct', 'use')])
+670.6470 	EXP 	RatingScale RatingBlau: reset()
+670.7425 	EXP 	FixationCross: autoDraw = False
+670.7425 	EXP 	FixationCross: autoDraw = False
+670.7425 	EXP 	WebsiteImg: image = 'Stimuli/HI_emilycanham.png'
+670.7425 	EXP 	Frage: text = 'I would follow brand recommendations from the shown influencer.'
+670.7425 	EXP 	WebsiteImg: autoDraw = True
+672.6424 	EXP 	Frage: autoDraw = True
+672.6589 	EXP 	RatingBlau: autoDraw = True
+672.7424 	EXP 	WebsiteImg: autoDraw = False
+674.1092 	DATA 	Keypress: c
+674.1111 	DATA 	RatingScale RatingBlau: (key single-click) rating=1
+674.1111 	DATA 	RatingScale RatingBlau: rating RT=1.468
+674.1111 	DATA 	RatingScale RatingBlau: history=[(3.0, 0.0), (1, 1.468)]
+674.1424 	EXP 	WebsiteImg: autoDraw = False
+674.1424 	EXP 	Frage: autoDraw = False
+674.1424 	EXP 	RatingBlau: autoDraw = False
+674.1424 	EXP 	FixationCross: autoDraw = True
+678.3766 	EXP 	New trial (rep=0, index=74): OrderedDict([('marker', 13), ('half', 'VI'), ('image', 'Stimuli/VI_immagram.png'), ('question', 'The shown influencer is trustworthy.'), ('construct', 'trust')])
+678.4453 	EXP 	RatingScale RatingBlau: reset()
+678.5423 	EXP 	FixationCross: autoDraw = False
+678.5423 	EXP 	FixationCross: autoDraw = False
+678.5423 	EXP 	WebsiteImg: image = 'Stimuli/VI_immagram.png'
+678.5423 	EXP 	Frage: text = 'The shown influencer is trustworthy.'
+678.5423 	EXP 	WebsiteImg: autoDraw = True
+680.4424 	EXP 	Frage: autoDraw = True
+680.4592 	EXP 	RatingBlau: autoDraw = True
+680.5424 	EXP 	WebsiteImg: autoDraw = False
+681.8443 	DATA 	Keypress: c
+681.8446 	DATA 	RatingScale RatingBlau: (key single-click) rating=1
+681.8447 	DATA 	RatingScale RatingBlau: rating RT=1.402
+681.8447 	DATA 	RatingScale RatingBlau: history=[(3.0, 0.0), (1, 1.402)]
+681.8758 	EXP 	WebsiteImg: autoDraw = False
+681.8758 	EXP 	Frage: autoDraw = False
+681.8758 	EXP 	RatingBlau: autoDraw = False
+681.8758 	EXP 	FixationCross: autoDraw = True
+686.1098 	EXP 	New trial (rep=0, index=75): OrderedDict([('marker', 6), ('half', 'HI'), ('image', 'Stimuli/HI_jihye.png'), ('question', 'I would follow brand recommendations from the shown influencer.'), ('construct', 'use')])
+686.1905 	EXP 	RatingScale RatingBlau: reset()
+686.2759 	EXP 	FixationCross: autoDraw = False
+686.2759 	EXP 	FixationCross: autoDraw = False
+686.2759 	EXP 	WebsiteImg: image = 'Stimuli/HI_jihye.png'
+686.2759 	EXP 	Frage: text = 'I would follow brand recommendations from the shown influencer.'
+686.2759 	EXP 	WebsiteImg: autoDraw = True
+688.1923 	EXP 	Frage: autoDraw = True
+688.2090 	EXP 	RatingBlau: autoDraw = True
+688.2756 	EXP 	WebsiteImg: autoDraw = False
+690.0260 	DATA 	Keypress: n
+690.0278 	DATA 	RatingScale RatingBlau: (key single-click) rating=4
+690.0278 	DATA 	RatingScale RatingBlau: rating RT=1.835
+690.0279 	DATA 	RatingScale RatingBlau: history=[(3.0, 0.0), (4, 1.835)]
+690.0592 	EXP 	WebsiteImg: autoDraw = False
+690.0592 	EXP 	Frage: autoDraw = False
+690.0592 	EXP 	RatingBlau: autoDraw = False
+690.0592 	EXP 	FixationCross: autoDraw = True
+693.7930 	EXP 	New trial (rep=0, index=76): OrderedDict([('marker', 6), ('half', 'HI'), ('image', 'Stimuli/HI_jihye.png'), ('question', 'The shown influencer is a human.'), ('construct', 'human')])
+693.8613 	EXP 	RatingScale RatingBlau: reset()
+693.8758 	EXP 	FixationCross: autoDraw = False
+693.8758 	EXP 	FixationCross: autoDraw = False
+693.8758 	EXP 	WebsiteImg: image = 'Stimuli/HI_jihye.png'
+693.8758 	EXP 	Frage: text = 'The shown influencer is a human.'
+693.8758 	EXP 	WebsiteImg: autoDraw = True
+695.8589 	EXP 	Frage: autoDraw = True
+695.8756 	EXP 	WebsiteImg: autoDraw = False
+695.8756 	EXP 	RatingBlau: autoDraw = True
+697.6924 	DATA 	Keypress: m
+697.6945 	DATA 	RatingScale RatingBlau: (key single-click) rating=5
+697.6946 	DATA 	RatingScale RatingBlau: rating RT=1.835
+697.6946 	DATA 	RatingScale RatingBlau: history=[(3.0, 0.0), (5, 1.835)]
+697.7256 	EXP 	WebsiteImg: autoDraw = False
+697.7256 	EXP 	Frage: autoDraw = False
+697.7256 	EXP 	RatingBlau: autoDraw = False
+697.7256 	EXP 	FixationCross: autoDraw = True
+701.2096 	EXP 	New trial (rep=0, index=77): OrderedDict([('marker', 1), ('half', 'HI'), ('image', 'Stimuli/HI_adhel_bol.png'), ('question', 'The shown influencer is a human.'), ('construct', 'human')])
+701.2667 	EXP 	RatingScale RatingBlau: reset()
+701.2921 	EXP 	FixationCross: autoDraw = False
+701.2921 	EXP 	FixationCross: autoDraw = False
+701.2921 	EXP 	WebsiteImg: image = 'Stimuli/HI_adhel_bol.png'
+701.2921 	EXP 	Frage: text = 'The shown influencer is a human.'
+701.2921 	EXP 	WebsiteImg: autoDraw = True
+703.2589 	EXP 	Frage: autoDraw = True
+703.2757 	EXP 	RatingBlau: autoDraw = True
+703.2922 	EXP 	WebsiteImg: autoDraw = False
+705.4609 	DATA 	Keypress: v
+705.4612 	DATA 	RatingScale RatingBlau: (key single-click) rating=2
+705.4612 	DATA 	RatingScale RatingBlau: rating RT=2.202
+705.4612 	DATA 	RatingScale RatingBlau: history=[(3.0, 0.0), (2, 2.202)]
+705.4921 	EXP 	WebsiteImg: autoDraw = False
+705.4921 	EXP 	Frage: autoDraw = False
+705.4921 	EXP 	RatingBlau: autoDraw = False
+705.4921 	EXP 	FixationCross: autoDraw = True
+709.2263 	EXP 	New trial (rep=0, index=78): OrderedDict([('marker', 9), ('half', 'HI'), ('image', 'Stimuli/HI_simoneses.png'), ('question', 'The shown influencer is a human.'), ('construct', 'human')])
+709.2843 	EXP 	RatingScale RatingBlau: reset()
+709.3756 	EXP 	FixationCross: autoDraw = False
+709.3756 	EXP 	FixationCross: autoDraw = False
+709.3756 	EXP 	WebsiteImg: image = 'Stimuli/HI_simoneses.png'
+709.3756 	EXP 	Frage: text = 'The shown influencer is a human.'
+709.3756 	EXP 	WebsiteImg: autoDraw = True
+711.2922 	EXP 	Frage: autoDraw = True
+711.2922 	EXP 	RatingBlau: autoDraw = True
+711.3755 	EXP 	WebsiteImg: autoDraw = False
+712.5425 	DATA 	Keypress: m
+712.5443 	DATA 	RatingScale RatingBlau: (key single-click) rating=5
+712.5444 	DATA 	RatingScale RatingBlau: rating RT=1.268
+712.5444 	DATA 	RatingScale RatingBlau: history=[(3.0, 0.0), (5, 1.268)]
+712.5756 	EXP 	WebsiteImg: autoDraw = False
+712.5756 	EXP 	Frage: autoDraw = False
+712.5756 	EXP 	RatingBlau: autoDraw = False
+712.5756 	EXP 	FixationCross: autoDraw = True
+716.8096 	EXP 	New trial (rep=0, index=79): OrderedDict([('marker', 14), ('half', 'VI'), ('image', 'Stimuli/VI_leyalovenature.png'), ('question', 'The shown influencer is trustworthy.'), ('construct', 'trust')])
+716.8790 	EXP 	RatingScale RatingBlau: reset()
+716.9754 	EXP 	FixationCross: autoDraw = False
+716.9754 	EXP 	FixationCross: autoDraw = False
+716.9754 	EXP 	WebsiteImg: image = 'Stimuli/VI_leyalovenature.png'
+716.9754 	EXP 	Frage: text = 'The shown influencer is trustworthy.'
+716.9754 	EXP 	WebsiteImg: autoDraw = True
+718.8755 	EXP 	Frage: autoDraw = True
+718.8922 	EXP 	RatingBlau: autoDraw = True
+718.9755 	EXP 	WebsiteImg: autoDraw = False
+720.6609 	DATA 	Keypress: c
+720.6612 	DATA 	RatingScale RatingBlau: (key single-click) rating=1
+720.6612 	DATA 	RatingScale RatingBlau: rating RT=1.785
+720.6612 	DATA 	RatingScale RatingBlau: history=[(3.0, 0.0), (1, 1.785)]
+720.6922 	EXP 	WebsiteImg: autoDraw = False
+720.6922 	EXP 	Frage: autoDraw = False
+720.6922 	EXP 	RatingBlau: autoDraw = False
+720.6922 	EXP 	FixationCross: autoDraw = True
+724.4421 	EXP 	FixationCross: autoDraw = False
+724.4421 	EXP 	FixationCross: autoDraw = False
+724.4421 	EXP 	text: autoDraw = True
+736.0925 	DATA 	Mouse: Left button down, pos=(162,1076)
+736.1925 	DATA 	Mouse:  Left button up, pos=(162,1076)
+736.4926 	DATA 	Keypress: escape
+736.5994 	EXP 	window1: mouseVisible = True
