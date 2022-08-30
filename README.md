@@ -4,7 +4,7 @@
 From the authors: Anika Nissen, Colin Conrad, and Aaron Newman
 
 The raw EEG and self-reported data to this paper can be downloaded from the following URL:
-<url>TODO INPUT URL HERE</url>
+<url>https://doi.org/10.5683/SP3/4UJ2P6</url>
 
 Through this link, you can download the data collected in this study:
 * `Study 1 Raw Data.csv` will provide you the raw collected data in Study 1
